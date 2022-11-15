@@ -1,16 +1,134 @@
 ﻿XXYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 36, warn = 42, info = 9
 IG Publisher Version: 1.2.14
-Generated Tue Nov 15 14:19:21 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
- Build Errors : 0 / 4 / 0
- /github/workspace/input/myig : 1 / 0 / 1
+Generated Tue Nov 15 14:33:06 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+ Build Errors : 0 / 8 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-art-status : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-artregimen-lines : 2 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-case-report-sections : 2 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-obs-codes : 2 / 3 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-key-population : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-causeofdeath : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-interpretation : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-suppression : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-vl-reason-codes : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-vs-art-status : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-artregimen-lines : 2 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-careplan-outcome : 2 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-vl-reason : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-key-population : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-marital-status : 2 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-causeofdeath : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-interpretation : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression : 2 / 1 / 1
+ /github/workspace/input/myig : 0 / 0 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/cs-artregimen-lines.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/cs-hiv-obs-codes.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/vs-artregimen-lines.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/cs-case-report-sections.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-cs-art-status.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-art-status'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-art-status.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-art-status) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-art-status)
+INFORMATION: CodeSystem/cs-art-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-art-status: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-art-status: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-art-status: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-art-status vs http://example.com/fhir/example/CodeSystem/cs-art-status
+== fsh-generated/resources/CodeSystem-cs-artregimen-lines.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-artregimen-lines'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-artregimen-lines.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-artregimen-lines) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-artregimen-lines)
+INFORMATION: CodeSystem/cs-artregimen-lines: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-artregimen-lines: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-artregimen-lines: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-artregimen-lines: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-artregimen-lines: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-artregimen-lines vs http://example.com/fhir/example/CodeSystem/cs-artregimen-lines
+== fsh-generated/resources/CodeSystem-cs-case-report-sections.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-case-report-sections'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-case-report-sections.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-case-report-sections) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-case-report-sections)
+INFORMATION: CodeSystem/cs-case-report-sections: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-case-report-sections: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-case-report-sections: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-case-report-sections: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-case-report-sections: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-case-report-sections vs http://example.com/fhir/example/CodeSystem/cs-case-report-sections
+== fsh-generated/resources/CodeSystem-cs-hiv-obs-codes.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-hiv-obs-codes'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-obs-codes.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-hiv-obs-codes) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-hiv-obs-codes)
+INFORMATION: CodeSystem/cs-hiv-obs-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-hiv-obs-codes: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-hiv-obs-codes: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-hiv-obs-codes: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-obs-codes: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-hiv-obs-codes vs http://example.com/fhir/example/CodeSystem/cs-hiv-obs-codes
+== fsh-generated/resources/CodeSystem-cs-key-population.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-key-population'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-key-population.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-key-population) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-key-population)
+INFORMATION: CodeSystem/cs-key-population: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-key-population: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-key-population: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-key-population: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-key-population vs http://example.com/fhir/example/CodeSystem/cs-key-population
+== fsh-generated/resources/CodeSystem-cs-vl-causeofdeath.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-causeofdeath.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-vl-causeofdeath) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath)
+INFORMATION: CodeSystem/cs-vl-causeofdeath: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-vl-causeofdeath: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-vl-causeofdeath: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-causeofdeath: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-vl-causeofdeath vs http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath
+== fsh-generated/resources/CodeSystem-cs-vl-interpretation.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-vl-interpretation'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-interpretation.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-vl-interpretation) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-vl-interpretation)
+INFORMATION: CodeSystem/cs-vl-interpretation: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-vl-interpretation: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-vl-interpretation: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-interpretation: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-vl-interpretation vs http://example.com/fhir/example/CodeSystem/cs-vl-interpretation
+== fsh-generated/resources/CodeSystem-cs-vl-suppression.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/cs-vl-suppression'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-suppression.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/cs-vl-suppression) does not match the URL (http://example.com/fhir/example/CodeSystem/cs-vl-suppression)
+INFORMATION: CodeSystem/cs-vl-suppression: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/cs-vl-suppression: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-vl-suppression: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-vl-suppression: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/cs-vl-suppression vs http://example.com/fhir/example/CodeSystem/cs-vl-suppression
+== fsh-generated/resources/CodeSystem-vl-reason-codes.json ==
+ERROR: CodeSystem.where(url = 'http://example.com/fhir/example/CodeSystem/vl-reason-codes'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-vl-reason-codes.json - the canonical URL (http://xxsomewhere.org/fhir/myig/CodeSystem/vl-reason-codes) does not match the URL (http://example.com/fhir/example/CodeSystem/vl-reason-codes)
+INFORMATION: CodeSystem/vl-reason-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/vl-reason-codes: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/vl-reason-codes: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-vl-reason-codes: URL Mismatch http://xxsomewhere.org/fhir/myig/CodeSystem/vl-reason-codes vs http://example.com/fhir/example/CodeSystem/vl-reason-codes
+== fsh-generated/resources/ValueSet-vs-art-status.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-art-status'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-art-status.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-art-status) does not match the URL (http://example.com/fhir/example/ValueSet/vs-art-status)
+WARNING: ValueSet/vs-art-status: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-art-status: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-art-status vs http://example.com/fhir/example/ValueSet/vs-art-status
+== fsh-generated/resources/ValueSet-vs-artregimen-lines.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-artregimen-lines'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-artregimen-lines.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-artregimen-lines) does not match the URL (http://example.com/fhir/example/ValueSet/vs-artregimen-lines)
+WARNING: ValueSet/vs-artregimen-lines: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet/vs-artregimen-lines: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-artregimen-lines: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-artregimen-lines vs http://example.com/fhir/example/ValueSet/vs-artregimen-lines
+== fsh-generated/resources/ValueSet-vs-careplan-outcome.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-careplan-outcome'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-careplan-outcome.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-careplan-outcome) does not match the URL (http://example.com/fhir/example/ValueSet/vs-careplan-outcome)
+WARNING: ValueSet/vs-careplan-outcome: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-careplan-outcome'): Error from server: Unable to provide support for code system https://openconceptlab.org
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-careplan-outcome: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-careplan-outcome vs http://example.com/fhir/example/ValueSet/vs-careplan-outcome
+== fsh-generated/resources/ValueSet-vs-hiv-vl-reason.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-vl-reason.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-hiv-vl-reason) does not match the URL (http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason)
+WARNING: ValueSet/vs-hiv-vl-reason: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-hiv-vl-reason: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-hiv-vl-reason vs http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason
+== fsh-generated/resources/ValueSet-vs-key-population.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-key-population'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-key-population.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-key-population) does not match the URL (http://example.com/fhir/example/ValueSet/vs-key-population)
+WARNING: ValueSet/vs-key-population: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-key-population: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-key-population vs http://example.com/fhir/example/ValueSet/vs-key-population
+== fsh-generated/resources/ValueSet-vs-marital-status.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-marital-status'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-marital-status.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-marital-status) does not match the URL (http://example.com/fhir/example/ValueSet/vs-marital-status)
+WARNING: ValueSet/vs-marital-status: ValueSet.compose[0].include[0]: Unknown System 'http://hl7.org/fhir/ValueSet/marital-status' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/vs-marital-status: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-marital-status'): Error from server: Unable to provide support for code system http://hl7.org/fhir/ValueSet/marital-status
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-marital-status: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-marital-status vs http://example.com/fhir/example/ValueSet/vs-marital-status
+== fsh-generated/resources/ValueSet-vs-vl-causeofdeath.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-vl-causeofdeath'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-vl-causeofdeath.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-vl-causeofdeath) does not match the URL (http://example.com/fhir/example/ValueSet/vs-vl-causeofdeath)
+WARNING: ValueSet/vs-vl-causeofdeath: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-vl-causeofdeath: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-vl-causeofdeath vs http://example.com/fhir/example/ValueSet/vs-vl-causeofdeath
+== fsh-generated/resources/ValueSet-vs-vl-interpretation.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-vl-interpretation'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-vl-interpretation.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-vl-interpretation) does not match the URL (http://example.com/fhir/example/ValueSet/vs-vl-interpretation)
+WARNING: ValueSet/vs-vl-interpretation: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-vl-interpretation: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-vl-interpretation vs http://example.com/fhir/example/ValueSet/vs-vl-interpretation
+== fsh-generated/resources/ValueSet-vs-vl-suppression.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/vs-vl-suppression'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression.json - the canonical URL (http://xxsomewhere.org/fhir/myig/ValueSet/vs-vl-suppression) does not match the URL (http://example.com/fhir/example/ValueSet/vs-vl-suppression)
+WARNING: ValueSet/vs-vl-suppression: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-vs-vl-suppression: URL Mismatch http://xxsomewhere.org/fhir/myig/ValueSet/vs-vl-suppression vs http://example.com/fhir/example/ValueSet/vs-vl-suppression
 == input/myig.xml ==
-ERROR: ImplementationGuide/xxexample.fhir.uv.myig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)

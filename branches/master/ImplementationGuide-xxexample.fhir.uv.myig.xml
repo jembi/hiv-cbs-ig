@@ -12,7 +12,7 @@
   <title value="xxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-11-15T14:19:08+00:00"/>
+  <date value="2022-11-15T14:32:44+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -215,6 +215,182 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-artregimen-lines"/>
+      </reference>
+      <name value="ART Regimen Lines"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-art-status"/>
+      </reference>
+      <name value="ART Status code list"/>
+      <description value="A list of ART status codes"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-hiv-obs-codes"/>
+      </reference>
+      <name value="HIV Case Report Observation codes"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-art-status"/>
+      </reference>
+      <name value="Value-set for ART Status code"/>
+      <description value="Value-set for ART status codes"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-vl-causeofdeath"/>
+      </reference>
+      <name value="Cause Of Death"/>
+      <description value="A list of CauseOfDeaths"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-vl-interpretation"/>
+      </reference>
+      <name value="Viral load Interpretation"/>
+      <description value="Valueset - Viral load Interpretations"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-key-population"/>
+      </reference>
+      <name value="Key population"/>
+      <description value="A list of key population types"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-hiv-vl-reason"/>
+      </reference>
+      <name value="HIV VL Reason codes"/>
+      <description value="Valueset - Viral Load test reasons"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-marital-status"/>
+      </reference>
+      <name value="Marital Status"/>
+      <description value="Valueset - marital statuses"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-vl-suppression"/>
+      </reference>
+      <name value="Viral load Suppression"/>
+      <description value="A list of Viral load Suppression"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-vl-suppression"/>
+      </reference>
+      <name value="Viral load Suppression"/>
+      <description value="Valueset - Viral load Suppression"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-careplan-outcome"/>
+      </reference>
+      <name value="ARV treatment outcomes"/>
+      <description value="Value-set for ARV treatment plan outcomes"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-key-population"/>
+      </reference>
+      <name value="Key population"/>
+      <description value="A list of key population types"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-artregimen-lines"/>
+      </reference>
+      <name value="VSART Regimen Lines"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/vl-reason-codes"/>
+      </reference>
+      <name value="HIV VL Reason codes"/>
+      <description value="A list of Viral Load test reasons"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-vl-interpretation"/>
+      </reference>
+      <name value="Viral load Interpretation"/>
+      <description value="A list of Viral load Interpretations"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-case-report-sections"/>
+      </reference>
+      <name value="HIV Case Report Sections codesystem"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-vl-causeofdeath"/>
+      </reference>
+      <name value="Cause Of Death"/>
+      <description value="Valueset - CauseOfDeaths"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>

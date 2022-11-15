@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-vl-suppression",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-vl-suppression.html\"><code>http://example.com/fhir/example/CodeSystem/cs-vl-suppression</code></a></li></ul></div>"
+  },
+  "url": "http://example.com/fhir/example/ValueSet/vs-vl-suppression",
+  "version": "0.1.0-test",
+  "name": "VSVLSuppression",
+  "title": "Viral load Suppression",
+  "status": "active",
+  "date": "2022-11-15T14:32:44+00:00",
+  "publisher": "xxxYour Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://xxhl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "Valueset - Viral load Suppression",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.com/fhir/example/CodeSystem/cs-vl-suppression"
+      }
+    ]
+  }
+}
