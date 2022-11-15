@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "xxYour User Friendly Name for MyIG Here"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-15T14:32:44+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-15T14:41:26+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -341,6 +341,32 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-service-request>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-service-request" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Service Request" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Service Request" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-viral-load-suppression-most-recent-test-result>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-viral-load-suppression-most-recent-test-result" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Viral Load Suppression Most Recent Test Result" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is to determine the result of the HIV Test" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -350,7 +376,20 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ART Status code list" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of ART status codes" ]
      ], [
-       fhir:index 2;
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-organization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Organization for case report - this represents a health facility" ]
+     ], [
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -362,7 +401,19 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Case Report Observation codes" ]
      ], [
-       fhir:index 3;
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-care-next-visit>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-care-next-visit" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Next Appointment Date" ]
+     ], [
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -375,7 +426,33 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Value-set for ART Status code" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Value-set for ART status codes" ]
      ], [
-       fhir:index 4;
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-patient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Patient" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This Patient profile allows the exchange of patient information, including all the data associated with HIV patients" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/key-population>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/key-population" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Key population" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Key population" ]
+     ], [
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -388,7 +465,32 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cause Of Death" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of CauseOfDeaths" ]
      ], [
-       fhir:index 5;
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-recency-test-conducted>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-recency-test-conducted" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Recency Test Conducted" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile allows the exchange of a patient's hiv recency test" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/art-status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/art-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ART Status" ]
+     ], [
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -401,7 +503,46 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral load Interpretation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valueset - Viral load Interpretations" ]
      ], [
-       fhir:index 6;
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-date-recency-test>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-date-recency-test" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Date Recency Test" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is to determine the data of the HIV Test" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-transfer-out>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-transfer-out" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Transfer Out Request" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Transfer Out Request" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/date-tested-for-hiv>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/date-tested-for-hiv" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIVTestDateObservation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile allows the exchange of a patient's test date" ]
+     ], [
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -414,7 +555,32 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Key population" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of key population types" ]
      ], [
-       fhir:index 7;
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-episode-of-care>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-episode-of-care" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Episode Of Care" ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-med-req>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-med-req" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Care Medication Request" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Care Medication Request" ]
+     ], [
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -427,7 +593,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV VL Reason codes" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valueset - Viral Load test reasons" ]
      ], [
-       fhir:index 8;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -440,7 +606,44 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marital Status" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valueset - marital statuses" ]
      ], [
-       fhir:index 9;
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/last-clinical-visit>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/last-clinical-visit" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Last Clinical Visit" ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/death-obs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/death-obs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Death Obs" ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-clinical-encounter>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-clinical-encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Clinical Encounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Encounter for a case report" ]
+     ], [
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -453,7 +656,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral load Suppression" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of Viral load Suppression" ]
      ], [
-       fhir:index 10;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -466,7 +669,20 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral load Suppression" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valueset - Viral load Suppression" ]
      ], [
-       fhir:index 11;
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-composition>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Case Reporting Composition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Case Reporting Composition" ]
+     ], [
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -479,7 +695,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ARV treatment outcomes" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Value-set for ARV treatment plan outcomes" ]
      ], [
-       fhir:index 12;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -492,7 +708,33 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Key population" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of key population types" ]
      ], [
-       fhir:index 13;
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-acutal-recency-test-result>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-acutal-recency-test-result" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Actual Recency Test Result" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is to determine the recent test result" ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-disgnosis-encounter>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-disgnosis-encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Diagnosis Encounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Encounter for a case report" ]
+     ], [
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -504,7 +746,45 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VSART Regimen Lines" ]
      ], [
-       fhir:index 14;
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/vl-procedure-info>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/vl-procedure-info" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VL Procedure info" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "VL Procedure info" ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-recency-result>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-recency-result" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Recency Result" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile allows the exchange of a patient's hiv recency test" ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/art-regimen-line>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/art-regimen-line" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ART Regimen Line" ]
+     ], [
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -517,7 +797,46 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV VL Reason codes" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of Viral Load test reasons" ]
      ], [
-       fhir:index 15;
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-viral-load-suppression-most-recent-test-date>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-viral-load-suppression-most-recent-test-date" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Viral Load Suppression Most Recent Test Date" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile is to determine the date of the HIV Test" ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-cd4-test>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-cd4-test" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CD4Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile allows the exchange of a patient's CD4 test and results" ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-viral-load-suppression>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-viral-load-suppression" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV viral load suppression" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV viral load" ]
+     ], [
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -530,7 +849,33 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral load Interpretation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A list of Viral load Interpretations" ]
      ], [
-       fhir:index 16;
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-arv-treatment>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-arv-treatment" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ARVCarePlan" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile allows the exchange of a patient's ARV treatment" ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/viral-load-specimen>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/viral-load-specimen" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Viral Load Specimen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Viral Load Specimen" ]
+     ], [
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -542,7 +887,20 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Case Report Sections codesystem" ]
      ], [
-       fhir:index 17;
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-diagnosis>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-diagnosis" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Diagnosis" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile allows the exchange of a patient's hiv diagnosis" ]
+     ], [
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -554,6 +912,19 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cause Of Death" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Valueset - CauseOfDeaths" ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://xxsomewhere.org/fhir/myig/StructureDefinition/hiv-related-person>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/hiv-related-person" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Related Person" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Related Person" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [

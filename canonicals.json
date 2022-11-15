@@ -63,6 +63,209 @@
     "name": "CSHIVVLReason"
   },
   {
+    "id": "art-regimen-line",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/art-regimen-line",
+    "version": "0.1.0-test",
+    "name": "ARTRegimenLine"
+  },
+  {
+    "id": "art-status",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/art-status",
+    "version": "0.1.0-test",
+    "name": "ARTStatus"
+  },
+  {
+    "id": "date-tested-for-hiv",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/date-tested-for-hiv",
+    "version": "0.1.0-test",
+    "name": "HIVTestDate"
+  },
+  {
+    "id": "death-obs",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/death-obs",
+    "version": "0.1.0-test",
+    "name": "DeathObs"
+  },
+  {
+    "id": "hiv-acutal-recency-test-result",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-acutal-recency-test-result",
+    "version": "0.1.0-test",
+    "name": "HIVActualRecencyTestResult"
+  },
+  {
+    "id": "hiv-arv-treatment",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-arv-treatment",
+    "version": "0.1.0-test",
+    "name": "ARVTreatment"
+  },
+  {
+    "id": "hiv-care-next-visit",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-care-next-visit",
+    "version": "0.1.0-test",
+    "name": "HIVCareNextAppointment"
+  },
+  {
+    "id": "hiv-cd4-test",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-cd4-test",
+    "version": "0.1.0-test",
+    "name": "CD4"
+  },
+  {
+    "id": "hiv-clinical-encounter",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-clinical-encounter",
+    "version": "0.1.0-test",
+    "name": "HIVClinicalEncounter"
+  },
+  {
+    "id": "hiv-composition",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-composition",
+    "version": "0.1.0-test",
+    "name": "HIVComposition"
+  },
+  {
+    "id": "hiv-date-recency-test",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-date-recency-test",
+    "version": "0.1.0-test",
+    "name": "HIVDateOfRecencyTest"
+  },
+  {
+    "id": "hiv-diagnosis",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-diagnosis",
+    "version": "0.1.0-test",
+    "name": "HIVDiagnosis"
+  },
+  {
+    "id": "hiv-disgnosis-encounter",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-disgnosis-encounter",
+    "version": "0.1.0-test",
+    "name": "HIVDiagnosisEncounter"
+  },
+  {
+    "id": "hiv-episode-of-care",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-episode-of-care",
+    "version": "0.1.0-test",
+    "name": "HIVEpisodeOfCare"
+  },
+  {
+    "id": "hiv-med-req",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-med-req",
+    "version": "0.1.0-test",
+    "name": "HIVCareMedicationRequest"
+  },
+  {
+    "id": "hiv-organization",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-organization",
+    "version": "0.1.0-test",
+    "name": "HIVOrganization"
+  },
+  {
+    "id": "hiv-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-patient",
+    "version": "0.1.0-test",
+    "name": "HIVPatient"
+  },
+  {
+    "id": "hiv-recency-result",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-recency-result",
+    "version": "0.1.0-test",
+    "name": "HIVRecencyResult"
+  },
+  {
+    "id": "hiv-recency-test-conducted",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-recency-test-conducted",
+    "version": "0.1.0-test",
+    "name": "HIVRecencyTestConducted"
+  },
+  {
+    "id": "hiv-related-person",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-related-person",
+    "version": "0.1.0-test",
+    "name": "HIVRelatedPerson"
+  },
+  {
+    "id": "hiv-service-request",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-service-request",
+    "version": "0.1.0-test",
+    "name": "HIVServiceRequest"
+  },
+  {
+    "id": "hiv-transfer-out",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-transfer-out",
+    "version": "0.1.0-test",
+    "name": "HIVTransferOut"
+  },
+  {
+    "id": "hiv-viral-load-suppression",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression",
+    "version": "0.1.0-test",
+    "name": "ViralLoadSuppression"
+  },
+  {
+    "id": "hiv-viral-load-suppression-most-recent-test-date",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression-most-recent-test-date",
+    "version": "0.1.0-test",
+    "name": "ViralLoadSuppressionMostRecentTestDate"
+  },
+  {
+    "id": "hiv-viral-load-suppression-most-recent-test-result",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression-most-recent-test-result",
+    "version": "0.1.0-test",
+    "name": "ViralLoadSuppressionMostRecentTestResult"
+  },
+  {
+    "id": "key-population",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/key-population",
+    "version": "0.1.0-test",
+    "name": "KeyPopulation"
+  },
+  {
+    "id": "last-clinical-visit",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/last-clinical-visit",
+    "version": "0.1.0-test",
+    "name": "LastClinicalVisit"
+  },
+  {
+    "id": "viral-load-specimen",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/viral-load-specimen",
+    "version": "0.1.0-test",
+    "name": "VLSpecimen"
+  },
+  {
+    "id": "vl-procedure-info",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/vl-procedure-info",
+    "version": "0.1.0-test",
+    "name": "VLProcedureInfo"
+  },
+  {
     "id": "vs-art-status",
     "type": "ValueSet",
     "url": "http://example.com/fhir/example/ValueSet/vs-art-status",
