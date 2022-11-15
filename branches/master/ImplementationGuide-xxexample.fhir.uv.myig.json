@@ -11,7 +11,7 @@
   "title": "xxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2022-11-15T14:32:44+00:00",
+  "date": "2022-11-15T14:41:26+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -359,6 +359,32 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-service-request"
+        },
+        "name": "HIV Service Request",
+        "description": "HIV Service Request"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-viral-load-suppression-most-recent-test-result"
+        },
+        "name": "HIV Viral Load Suppression Most Recent Test Result",
+        "description": "This profile is to determine the result of the HIV Test"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -372,6 +398,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-organization"
+        },
+        "name": "HIV Organization",
+        "description": "HIV Organization for case report - this represents a health facility"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -379,6 +418,18 @@
           "reference": "CodeSystem/cs-hiv-obs-codes"
         },
         "name": "HIV Case Report Observation codes"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-care-next-visit"
+        },
+        "name": "Next Appointment Date"
       },
       {
         "extension": [
@@ -397,6 +448,32 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-patient"
+        },
+        "name": "HIV Patient",
+        "description": "This Patient profile allows the exchange of patient information, including all the data associated with HIV patients"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/key-population"
+        },
+        "name": "Key population",
+        "description": "Key population"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -405,6 +482,31 @@
         },
         "name": "Cause Of Death",
         "description": "A list of CauseOfDeaths"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-recency-test-conducted"
+        },
+        "name": "HIV Recency Test Conducted",
+        "description": "This profile allows the exchange of a patient's hiv recency test"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/art-status"
+        },
+        "name": "ART Status"
       },
       {
         "extension": [
@@ -423,6 +525,45 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-date-recency-test"
+        },
+        "name": "HIV Date Recency Test",
+        "description": "This profile is to determine the data of the HIV Test"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-transfer-out"
+        },
+        "name": "HIV Transfer Out Request",
+        "description": "HIV Transfer Out Request"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/date-tested-for-hiv"
+        },
+        "name": "HIVTestDateObservation",
+        "description": "This profile allows the exchange of a patient's test date"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -431,6 +572,31 @@
         },
         "name": "Key population",
         "description": "A list of key population types"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-episode-of-care"
+        },
+        "name": "HIV Episode Of Care"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-med-req"
+        },
+        "name": "HIV Care Medication Request",
+        "description": "HIV Care Medication Request"
       },
       {
         "extension": [
@@ -462,6 +628,43 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/last-clinical-visit"
+        },
+        "name": "Last Clinical Visit"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/death-obs"
+        },
+        "name": "Death Obs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-clinical-encounter"
+        },
+        "name": "HIV Clinical Encounter",
+        "description": "HIV Encounter for a case report"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -483,6 +686,19 @@
         },
         "name": "Viral load Suppression",
         "description": "Valueset - Viral load Suppression"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-composition"
+        },
+        "name": "HIV Case Reporting Composition",
+        "description": "HIV Case Reporting Composition"
       },
       {
         "extension": [
@@ -514,6 +730,32 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-acutal-recency-test-result"
+        },
+        "name": "HIV Actual Recency Test Result",
+        "description": "This profile is to determine the recent test result"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-disgnosis-encounter"
+        },
+        "name": "HIV Diagnosis Encounter",
+        "description": "HIV Encounter for a case report"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -521,6 +763,44 @@
           "reference": "ValueSet/vs-artregimen-lines"
         },
         "name": "VSART Regimen Lines"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/vl-procedure-info"
+        },
+        "name": "VL Procedure info",
+        "description": "VL Procedure info"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-recency-result"
+        },
+        "name": "HIV Recency Result",
+        "description": "This profile allows the exchange of a patient's hiv recency test"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/art-regimen-line"
+        },
+        "name": "ART Regimen Line"
       },
       {
         "extension": [
@@ -539,6 +819,45 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-viral-load-suppression-most-recent-test-date"
+        },
+        "name": "HIV Viral Load Suppression Most Recent Test Date",
+        "description": "This profile is to determine the date of the HIV Test"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-cd4-test"
+        },
+        "name": "CD4Observation",
+        "description": "This profile allows the exchange of a patient's CD4 test and results"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-viral-load-suppression"
+        },
+        "name": "HIV viral load suppression",
+        "description": "HIV viral load"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -547,6 +866,32 @@
         },
         "name": "Viral load Interpretation",
         "description": "A list of Viral load Interpretations"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-arv-treatment"
+        },
+        "name": "ARVCarePlan",
+        "description": "This profile allows the exchange of a patient's ARV treatment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/viral-load-specimen"
+        },
+        "name": "Viral Load Specimen",
+        "description": "Viral Load Specimen"
       },
       {
         "extension": [
@@ -564,6 +909,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-diagnosis"
+        },
+        "name": "HIV Diagnosis",
+        "description": "This profile allows the exchange of a patient's hiv diagnosis"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -572,6 +930,19 @@
         },
         "name": "Cause Of Death",
         "description": "Valueset - CauseOfDeaths"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-related-person"
+        },
+        "name": "HIV Related Person",
+        "description": "HIV Related Person"
       }
     ],
     "page": {
