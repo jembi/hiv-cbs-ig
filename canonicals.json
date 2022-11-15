@@ -1,5 +1,131 @@
 [
   {
+    "id": "cs-art-status",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-art-status",
+    "version": "0.1.0-test",
+    "name": "CSARTStatus"
+  },
+  {
+    "id": "cs-artregimen-lines",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines",
+    "version": "0.1.0-test",
+    "name": "CSARTRegimenLines"
+  },
+  {
+    "id": "cs-case-report-sections",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-case-report-sections",
+    "version": "0.1.0-test",
+    "name": "CSCaseReportSections"
+  },
+  {
+    "id": "cs-hiv-obs-codes",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-hiv-obs-codes",
+    "version": "0.1.0-test",
+    "name": "CSHIVObsCodes"
+  },
+  {
+    "id": "cs-key-population",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-key-population",
+    "version": "0.1.0-test",
+    "name": "CSKeyPopulation"
+  },
+  {
+    "id": "cs-vl-causeofdeath",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath",
+    "version": "0.1.0-test",
+    "name": "CSVLCauseOfDeath"
+  },
+  {
+    "id": "cs-vl-interpretation",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-vl-interpretation",
+    "version": "0.1.0-test",
+    "name": "CSVLInterpretation"
+  },
+  {
+    "id": "cs-vl-suppression",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/cs-vl-suppression",
+    "version": "0.1.0-test",
+    "name": "CSVLSuppression"
+  },
+  {
+    "id": "vl-reason-codes",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+    "version": "0.1.0-test",
+    "name": "CSHIVVLReason"
+  },
+  {
+    "id": "vs-art-status",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-art-status",
+    "version": "0.1.0-test",
+    "name": "VSARTStatus"
+  },
+  {
+    "id": "vs-artregimen-lines",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-artregimen-lines",
+    "version": "0.1.0-test",
+    "name": "VSARTRegimenLines"
+  },
+  {
+    "id": "vs-careplan-outcome",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-careplan-outcome",
+    "version": "0.1.0-test",
+    "name": "VSCarePlanActivityOutcome"
+  },
+  {
+    "id": "vs-hiv-vl-reason",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason",
+    "version": "0.1.0-test",
+    "name": "VSHIVVLReason"
+  },
+  {
+    "id": "vs-key-population",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-key-population",
+    "version": "0.1.0-test",
+    "name": "VSKeyPopulation"
+  },
+  {
+    "id": "vs-marital-status",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-marital-status",
+    "version": "0.1.0-test",
+    "name": "VSMaritalStatus"
+  },
+  {
+    "id": "vs-vl-causeofdeath",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-vl-causeofdeath",
+    "version": "0.1.0-test",
+    "name": "VSVLCauseOfDeath"
+  },
+  {
+    "id": "vs-vl-interpretation",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-vl-interpretation",
+    "version": "0.1.0-test",
+    "name": "VSVLInterpretation"
+  },
+  {
+    "id": "vs-vl-suppression",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-vl-suppression",
+    "version": "0.1.0-test",
+    "name": "VSVLSuppression"
+  },
+  {
     "id": "xxexample.fhir.uv.myig",
     "type": "ImplementationGuide",
     "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
