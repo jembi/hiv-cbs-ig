@@ -8,9 +8,9 @@
 
 
 id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
-name: ExampleIG
+canonical: http://jembi.org/fhir/hiv-casereporting
+url: http://jembi.org/fhir/hiv-casereporting
+name: HIV-CBS-IG
 title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
 description: Example IG exercises many of the fields in a SUSHI configuration.
 status: active
