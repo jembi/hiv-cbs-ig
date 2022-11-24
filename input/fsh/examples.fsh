@@ -1,9 +1,9 @@
-Instance: HIVBundleExample
+Instance: HIVCaseReportingSubmitExample
 InstanceOf: Bundle
 Usage: #example
 Title: "HIV Case Report - Full Bundle Example"
 Description: "Example of a clinical bundle representing a case report"
-* type = #document
+* type = #transaction
 * entry[+].fullUrl = "Composition/HIVCompositionExample"
 * entry[=].resource = HIVCompositionExample
 * entry[+].fullUrl = "Encounter/HIVDiagnosisEncounterExample"
@@ -407,7 +407,7 @@ InstanceOf: VLProcedureInfo
 Usage: #example
 Title: "VL Procedure info example"
 Description: "VL Procedure info example"
-* status = #final
+* status = #completed
 * subject = Reference(HIVPatientExample)
 * encounter = Reference(HIVClinicalEncounter)
 * category  = $SCT#108252007
