@@ -3,14 +3,14 @@
   "id": "vs-artregimen-lines",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-artregimen-lines.html\"><code>http://example.com/fhir/example/CodeSystem/cs-artregimen-lines</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-artregimen-lines.html\"><code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines</code></a></li></ul></div>"
   },
-  "url": "http://example.com/fhir/example/ValueSet/vs-artregimen-lines",
+  "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-artregimen-lines",
   "version": "0.1.0-test",
   "name": "VSARTRegimenLines",
   "title": "VSART Regimen Lines",
   "status": "active",
-  "date": "2022-11-15T14:41:26+00:00",
+  "date": "2022-11-24T14:29:27+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -35,7 +35,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines"
+        "system": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines"
       }
     ]
   }

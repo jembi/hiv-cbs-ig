@@ -3,14 +3,14 @@
   "id": "vs-vl-interpretation",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-vl-interpretation.html\"><code>http://example.com/fhir/example/CodeSystem/cs-vl-interpretation</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-vl-interpretation.html\"><code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation</code></a></li></ul></div>"
   },
-  "url": "http://example.com/fhir/example/ValueSet/vs-vl-interpretation",
+  "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-interpretation",
   "version": "0.1.0-test",
   "name": "VSVLInterpretation",
   "title": "Viral load Interpretation",
   "status": "active",
-  "date": "2022-11-15T14:41:26+00:00",
+  "date": "2022-11-24T14:29:27+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -36,7 +36,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://example.com/fhir/example/CodeSystem/cs-vl-interpretation"
+        "system": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation"
       }
     ]
   }

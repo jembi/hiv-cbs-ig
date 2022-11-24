@@ -1,25 +1,25 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d2267820-8ad1-4e81-849d-51a5e996cbab",
+  "id" : "b3e661e0-76c3-483e-9cff-b614734358dd",
   "meta" : {
-    "lastUpdated" : "2022-11-15T14:41:26.402+00:00"
+    "lastUpdated" : "2022-11-24T14:29:27.968+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-art-status",
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-art-status",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-art-status",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-art-status.html\">ART Status code list v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-art-status-164349\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-164349\">164349</a></td><td>http://example.com/fhir/example/CodeSystem/cs-art-status</td><td>Interruption in Treatment</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-art-status-Active\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-Active\">Active</a></td><td>http://example.com/fhir/example/CodeSystem/cs-art-status</td><td>Active</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-art-status-159\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-159\">159</a></td><td>http://example.com/fhir/example/CodeSystem/cs-art-status</td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-art-status-159492\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-159492\">159492</a></td><td>http://example.com/fhir/example/CodeSystem/cs-art-status</td><td>Transferred-OUT</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-art-status.html\">ART Status code list v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-art-status-164349\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-164349\">164349</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status</td><td>Interruption in Treatment</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-art-status-Active\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-Active\">Active</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status</td><td>Active</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-art-status-159\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-159\">159</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status</td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-art-status-159492\"> </a>  <a href=\"CodeSystem-cs-art-status.html#cs-art-status-159492\">159492</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status</td><td>Transferred-OUT</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-art-status",
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-art-status",
       "version" : "0.1.0-test",
       "name" : "VSARTStatus",
       "title" : "Value-set for ART Status code",
       "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
+      "date" : "2022-11-24T14:29:27+00:00",
       "publisher" : "xxxYour Work Group",
       "contact" : [{
         "telecom" : [{
@@ -35,8 +35,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:79b1f0f1-9011-4f46-9485-b83bdf393baa",
-        "timestamp" : "2022-11-15T14:41:55+00:00",
+        "identifier" : "urn:uuid:9a8afd9f-a909-4772-82c5-d8968c5960c9",
+        "timestamp" : "2022-11-24T14:30:51+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -44,25 +44,25 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/cs-art-status|0.1.0-test"
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status|0.1.0-test"
         }],
         "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-art-status",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status",
           "code" : "164349",
           "display" : "Interruption in Treatment"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-art-status",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status",
           "code" : "Active",
           "display" : "Active"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-art-status",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status",
           "code" : "159",
           "display" : "Dead"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-art-status",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status",
           "code" : "159492",
           "display" : "Transferred-OUT"
         }]
@@ -70,158 +70,20 @@
     }
   },
   {
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-vl-interpretation",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "vs-vl-interpretation",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-vl-interpretation.html\">Viral load Interpretation v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-interpretation-D\"> </a>  <a href=\"CodeSystem-cs-vl-interpretation.html#cs-vl-interpretation-D\">D</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-interpretation</td><td>Detectable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-interpretation-ND\"> </a>  <a href=\"CodeSystem-cs-vl-interpretation.html#cs-vl-interpretation-ND\">ND</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-interpretation</td><td>Non Detectable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-interpretation-UNK\"> </a>  <a href=\"CodeSystem-cs-vl-interpretation.html#cs-vl-interpretation-UNK\">UNK</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-interpretation</td><td>Unknown</td></tr></table></div>"
-      },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-vl-interpretation",
-      "version" : "0.1.0-test",
-      "name" : "VSVLInterpretation",
-      "title" : "Viral load Interpretation",
-      "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
-      "publisher" : "xxxYour Work Group",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://xxhl7.org/Special/committees/[something]"
-        }]
-      }],
-      "description" : "Valueset - Viral load Interpretations",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:4c715588-dd03-4d9a-a094-0051e321f09d",
-        "timestamp" : "2022-11-15T14:41:58+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/cs-vl-interpretation|0.1.0-test"
-        }],
-        "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-interpretation",
-          "code" : "D",
-          "display" : "Detectable"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-interpretation",
-          "code" : "ND",
-          "display" : "Non Detectable"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-interpretation",
-          "code" : "UNK",
-          "display" : "Unknown"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-key-population",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "vs-key-population",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-key-population.html\">Key population v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-GENERAL-POPULATION\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-GENERAL-POPULATION\">GENERAL-POPULATION</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>General Population</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-MSM\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-MSM\">MSM</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>MSM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-FSW\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-FSW\">FSW</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>FSW</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-MSW\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-MSW\">MSW</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>MSW</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-PWID\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-PWID\">PWID</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>PWID</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-PWUD\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-PWUD\">PWUD</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>PWUD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-key-population-TRANSGENDER\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-TRANSGENDER\">TRANSGENDER</a></td><td>http://example.com/fhir/example/CodeSystem/cs-key-population</td><td>Transgender</td></tr></table></div>"
-      },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-key-population",
-      "version" : "0.1.0-test",
-      "name" : "VSKeyPopulation",
-      "title" : "Key population",
-      "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
-      "publisher" : "xxxYour Work Group",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://xxhl7.org/Special/committees/[something]"
-        }]
-      }],
-      "description" : "A list of key population types",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:161a9dfd-3906-494d-94f1-250fd1368548",
-        "timestamp" : "2022-11-15T14:42:00+00:00",
-        "total" : 7,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/cs-key-population|0.1.0-test"
-        }],
-        "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "GENERAL-POPULATION",
-          "display" : "General Population"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "MSM",
-          "display" : "MSM"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "FSW",
-          "display" : "FSW"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "MSW",
-          "display" : "MSW"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "PWID",
-          "display" : "PWID"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "PWUD",
-          "display" : "PWUD"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-key-population",
-          "code" : "TRANSGENDER",
-          "display" : "Transgender"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason",
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-hiv-vl-reason",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-hiv-vl-reason",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vl-reason-codes.html\">HIV VL Reason codes v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-5d4e13af-92ec-4b91-a8e4-97818810e577\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-5d4e13af-92ec-4b91-a8e4-97818810e577\">5d4e13af-92ec-4b91-a8e4-97818810e577</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Baseline Viral Load</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-1259\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-1259\">1259</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Change regimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-163523\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-163523\">163523</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Clinical failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-67143af5-c443-4a4f-a678-f3981b4fcb0f\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-67143af5-c443-4a4f-a678-f3981b4fcb0f\">67143af5-c443-4a4f-a678-f3981b4fcb0f</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Confirmation of treatment failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-5632\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-5632\">5632</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Currently breastfeeding child</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-1434\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-1434\">1434</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Currently pregnant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-e185de1e-a9b3-4b10-86df-2300bf4476bb\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-e185de1e-a9b3-4b10-86df-2300bf4476bb\">e185de1e-a9b3-4b10-86df-2300bf4476bb</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Persistent low-Level viremia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-c2aed192-73fc-405f-8cc2-776a4da81d59\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-c2aed192-73fc-405f-8cc2-776a4da81d59\">c2aed192-73fc-405f-8cc2-776a4da81d59</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Recency Assay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-843\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-843\">843</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Regimen failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-162081\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-162081\">162081</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Repeat</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-164369\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-164369\">164369</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Results not available</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-vl-reason-codes-be5d6a4a-4018-49dd-869f-273c9f5fec9e\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-be5d6a4a-4018-49dd-869f-273c9f5fec9e\">be5d6a4a-4018-49dd-869f-273c9f5fec9e</a></td><td>http://example.com/fhir/example/CodeSystem/vl-reason-codes</td><td>Routine Viral Load</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vl-reason-codes.html\">HIV VL Reason codes v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-5d4e13af-92ec-4b91-a8e4-97818810e577\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-5d4e13af-92ec-4b91-a8e4-97818810e577\">5d4e13af-92ec-4b91-a8e4-97818810e577</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Baseline Viral Load</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-1259\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-1259\">1259</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Change regimen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-163523\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-163523\">163523</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Clinical failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-67143af5-c443-4a4f-a678-f3981b4fcb0f\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-67143af5-c443-4a4f-a678-f3981b4fcb0f\">67143af5-c443-4a4f-a678-f3981b4fcb0f</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Confirmation of treatment failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-5632\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-5632\">5632</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Currently breastfeeding child</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-1434\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-1434\">1434</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Currently pregnant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-e185de1e-a9b3-4b10-86df-2300bf4476bb\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-e185de1e-a9b3-4b10-86df-2300bf4476bb\">e185de1e-a9b3-4b10-86df-2300bf4476bb</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Persistent low-Level viremia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-c2aed192-73fc-405f-8cc2-776a4da81d59\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-c2aed192-73fc-405f-8cc2-776a4da81d59\">c2aed192-73fc-405f-8cc2-776a4da81d59</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Recency Assay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-843\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-843\">843</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Regimen failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-162081\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-162081\">162081</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Repeat</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-164369\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-164369\">164369</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Results not available</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-vl-reason-codes-be5d6a4a-4018-49dd-869f-273c9f5fec9e\"> </a>  <a href=\"CodeSystem-vl-reason-codes.html#vl-reason-codes-be5d6a4a-4018-49dd-869f-273c9f5fec9e\">be5d6a4a-4018-49dd-869f-273c9f5fec9e</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</td><td>Routine Viral Load</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason",
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-hiv-vl-reason",
       "version" : "0.1.0-test",
       "name" : "VSHIVVLReason",
       "title" : "HIV VL Reason codes",
       "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
+      "date" : "2022-11-24T14:29:27+00:00",
       "publisher" : "xxxYour Work Group",
       "contact" : [{
         "telecom" : [{
@@ -237,8 +99,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3dd8232d-3682-4227-9dda-3ab0a44fedbf",
-        "timestamp" : "2022-11-15T14:42:01+00:00",
+        "identifier" : "urn:uuid:a61b8667-fdd1-484e-9056-d835c7c6329c",
+        "timestamp" : "2022-11-24T14:31:15+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -246,65 +108,65 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes|0.1.0-test"
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes|0.1.0-test"
         }],
         "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "5d4e13af-92ec-4b91-a8e4-97818810e577",
           "display" : "Baseline Viral Load"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "1259",
           "display" : "Change regimen"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "163523",
           "display" : "Clinical failure"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "67143af5-c443-4a4f-a678-f3981b4fcb0f",
           "display" : "Confirmation of treatment failure"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "5632",
           "display" : "Currently breastfeeding child"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "1434",
           "display" : "Currently pregnant"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "e185de1e-a9b3-4b10-86df-2300bf4476bb",
           "display" : "Persistent low-Level viremia"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "c2aed192-73fc-405f-8cc2-776a4da81d59",
           "display" : "Recency Assay"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "843",
           "display" : "Regimen failure"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "162081",
           "display" : "Repeat"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "164369",
           "display" : "Results not available"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/vl-reason-codes",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
           "code" : "be5d6a4a-4018-49dd-869f-273c9f5fec9e",
           "display" : "Routine Viral Load"
         }]
@@ -312,20 +174,20 @@
     }
   },
   {
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-vl-suppression",
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-key-population",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "vs-vl-suppression",
+      "id" : "vs-key-population",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-vl-suppression.html\">Viral load Suppression v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-suppression-SUP\"> </a>  <a href=\"CodeSystem-cs-vl-suppression.html#cs-vl-suppression-SUP\">SUP</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-suppression</td><td>Suppressed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-suppression-UNSUP\"> </a>  <a href=\"CodeSystem-cs-vl-suppression.html#cs-vl-suppression-UNSUP\">UNSUP</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-suppression</td><td>Unsuppressed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-suppression-UNK\"> </a>  <a href=\"CodeSystem-cs-vl-suppression.html#cs-vl-suppression-UNK\">UNK</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-suppression</td><td>Unknown</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-key-population.html\">Key population v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-GENERAL-POPULATION\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-GENERAL-POPULATION\">GENERAL-POPULATION</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>General Population</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-MSM\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-MSM\">MSM</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>MSM</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-FSW\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-FSW\">FSW</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>FSW</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-MSW\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-MSW\">MSW</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>MSW</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-PWID\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-PWID\">PWID</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>PWID</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-PWUD\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-PWUD\">PWUD</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>PWUD</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-key-population-TRANSGENDER\"> </a>  <a href=\"CodeSystem-cs-key-population.html#cs-key-population-TRANSGENDER\">TRANSGENDER</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</td><td>Transgender</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-vl-suppression",
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-key-population",
       "version" : "0.1.0-test",
-      "name" : "VSVLSuppression",
-      "title" : "Viral load Suppression",
+      "name" : "VSKeyPopulation",
+      "title" : "Key population",
       "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
+      "date" : "2022-11-24T14:29:27+00:00",
       "publisher" : "xxxYour Work Group",
       "contact" : [{
         "telecom" : [{
@@ -333,7 +195,7 @@
           "value" : "http://xxhl7.org/Special/committees/[something]"
         }]
       }],
-      "description" : "Valueset - Viral load Suppression",
+      "description" : "A list of key population types",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -341,113 +203,70 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cff43026-e343-484e-b9e7-c1ef1153ea07",
-        "timestamp" : "2022-11-15T14:42:04+00:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:665c27ee-1674-42e1-b033-8c0d1de57392",
+        "timestamp" : "2022-11-24T14:31:16+00:00",
+        "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
           "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/cs-vl-suppression|0.1.0-test"
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population|0.1.0-test"
         }],
         "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-suppression",
-          "code" : "SUP",
-          "display" : "Suppressed"
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "GENERAL-POPULATION",
+          "display" : "General Population"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-suppression",
-          "code" : "UNSUP",
-          "display" : "Unsuppressed"
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "MSM",
+          "display" : "MSM"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-suppression",
-          "code" : "UNK",
-          "display" : "Unknown"
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "FSW",
+          "display" : "FSW"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "MSW",
+          "display" : "MSW"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "PWID",
+          "display" : "PWID"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "PWUD",
+          "display" : "PWUD"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+          "code" : "TRANSGENDER",
+          "display" : "Transgender"
         }]
       }
     }
   },
   {
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-artregimen-lines",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "vs-artregimen-lines",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-artregimen-lines.html\">ART Regimen Lines v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-artregimen-lines-FIRST-LINE\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-FIRST-LINE\">FIRST-LINE</a></td><td>http://example.com/fhir/example/CodeSystem/cs-artregimen-lines</td><td>First line ARTs</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-artregimen-lines-SECOND-LINE\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-SECOND-LINE\">SECOND-LINE</a></td><td>http://example.com/fhir/example/CodeSystem/cs-artregimen-lines</td><td>Second line ARTs</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-artregimen-lines-THIRD-LINE\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-THIRD-LINE\">THIRD-LINE</a></td><td>http://example.com/fhir/example/CodeSystem/cs-artregimen-lines</td><td>Third line ARTs</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-artregimen-lines-SPECIAL-UNKNOWN\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-SPECIAL-UNKNOWN\">SPECIAL-UNKNOWN</a></td><td>http://example.com/fhir/example/CodeSystem/cs-artregimen-lines</td><td>Special/Unknown</td></tr></table></div>"
-      },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-artregimen-lines",
-      "version" : "0.1.0-test",
-      "name" : "VSARTRegimenLines",
-      "title" : "VSART Regimen Lines",
-      "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
-      "publisher" : "xxxYour Work Group",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://xxhl7.org/Special/committees/[something]"
-        }]
-      }],
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:17fb64f0-72b2-4aa2-a3f0-04ce362b4df2",
-        "timestamp" : "2022-11-15T14:42:10+00:00",
-        "total" : 4,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines|0.1.0-test"
-        }],
-        "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines",
-          "code" : "FIRST-LINE",
-          "display" : "First line ARTs"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines",
-          "code" : "SECOND-LINE",
-          "display" : "Second line ARTs"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines",
-          "code" : "THIRD-LINE",
-          "display" : "Third line ARTs"
-        },
-        {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines",
-          "code" : "SPECIAL-UNKNOWN",
-          "display" : "Special/Unknown"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-vl-causeofdeath",
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-causeofdeath",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-vl-causeofdeath",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-vl-causeofdeath.html\">Cause Of Death v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-causeofdeath-HIV\"> </a>  <a href=\"CodeSystem-cs-vl-causeofdeath.html#cs-vl-causeofdeath-HIV\">HIV</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath</td><td>HIV Related</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-cs-vl-causeofdeath-NON-HIV\"> </a>  <a href=\"CodeSystem-cs-vl-causeofdeath.html#cs-vl-causeofdeath-NON-HIV\">NON-HIV</a></td><td>http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath</td><td>Non HIV related</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-vl-causeofdeath.html\">Cause Of Death v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-causeofdeath-HIV\"> </a>  <a href=\"CodeSystem-cs-vl-causeofdeath.html#cs-vl-causeofdeath-HIV\">HIV</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath</td><td>HIV Related</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-causeofdeath-NON-HIV\"> </a>  <a href=\"CodeSystem-cs-vl-causeofdeath.html#cs-vl-causeofdeath-NON-HIV\">NON-HIV</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath</td><td>Non HIV related</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/vs-vl-causeofdeath",
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-causeofdeath",
       "version" : "0.1.0-test",
       "name" : "VSVLCauseOfDeath",
       "title" : "Cause Of Death",
       "status" : "active",
-      "date" : "2022-11-15T14:41:26+00:00",
+      "date" : "2022-11-24T14:29:27+00:00",
       "publisher" : "xxxYour Work Group",
       "contact" : [{
         "telecom" : [{
@@ -463,8 +282,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f0c1e162-b05b-4bfb-b8cc-1d6d20c51ba3",
-        "timestamp" : "2022-11-15T14:42:17+00:00",
+        "identifier" : "urn:uuid:4ee0fcb0-5010-4630-bdec-18e76f92ec09",
+        "timestamp" : "2022-11-24T14:31:21+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -472,17 +291,198 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath|0.1.0-test"
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath|0.1.0-test"
         }],
         "contains" : [{
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath",
           "code" : "HIV",
           "display" : "HIV Related"
         },
         {
-          "system" : "http://example.com/fhir/example/CodeSystem/cs-vl-causeofdeath",
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath",
           "code" : "NON-HIV",
           "display" : "Non HIV related"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-suppression",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-vl-suppression",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-vl-suppression.html\">Viral load Suppression v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-suppression-SUP\"> </a>  <a href=\"CodeSystem-cs-vl-suppression.html#cs-vl-suppression-SUP\">SUP</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression</td><td>Suppressed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-suppression-UNSUP\"> </a>  <a href=\"CodeSystem-cs-vl-suppression.html#cs-vl-suppression-UNSUP\">UNSUP</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression</td><td>Unsuppressed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-suppression-UNK\"> </a>  <a href=\"CodeSystem-cs-vl-suppression.html#cs-vl-suppression-UNK\">UNK</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-suppression",
+      "version" : "0.1.0-test",
+      "name" : "VSVLSuppression",
+      "title" : "Viral load Suppression",
+      "status" : "active",
+      "date" : "2022-11-24T14:29:27+00:00",
+      "publisher" : "xxxYour Work Group",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://xxhl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "Valueset - Viral load Suppression",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:3c35127b-9759-4fe6-adba-fc0be90819ad",
+        "timestamp" : "2022-11-24T14:31:22+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression|0.1.0-test"
+        }],
+        "contains" : [{
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression",
+          "code" : "SUP",
+          "display" : "Suppressed"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression",
+          "code" : "UNSUP",
+          "display" : "Unsuppressed"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression",
+          "code" : "UNK",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-artregimen-lines",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-artregimen-lines",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-artregimen-lines.html\">ART Regimen Lines v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-artregimen-lines-FIRST-LINE\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-FIRST-LINE\">FIRST-LINE</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines</td><td>First line ARTs</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-artregimen-lines-SECOND-LINE\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-SECOND-LINE\">SECOND-LINE</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines</td><td>Second line ARTs</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-artregimen-lines-THIRD-LINE\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-THIRD-LINE\">THIRD-LINE</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines</td><td>Third line ARTs</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-artregimen-lines-SPECIAL-UNKNOWN\"> </a>  <a href=\"CodeSystem-cs-artregimen-lines.html#cs-artregimen-lines-SPECIAL-UNKNOWN\">SPECIAL-UNKNOWN</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines</td><td>Special/Unknown</td></tr></table></div>"
+      },
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-artregimen-lines",
+      "version" : "0.1.0-test",
+      "name" : "VSARTRegimenLines",
+      "title" : "VSART Regimen Lines",
+      "status" : "active",
+      "date" : "2022-11-24T14:29:27+00:00",
+      "publisher" : "xxxYour Work Group",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://xxhl7.org/Special/committees/[something]"
+        }]
+      }],
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:07cfd31b-aa9a-4546-a76f-3f8eac80fe50",
+        "timestamp" : "2022-11-24T14:31:22+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines|0.1.0-test"
+        }],
+        "contains" : [{
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines",
+          "code" : "FIRST-LINE",
+          "display" : "First line ARTs"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines",
+          "code" : "SECOND-LINE",
+          "display" : "Second line ARTs"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines",
+          "code" : "THIRD-LINE",
+          "display" : "Third line ARTs"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines",
+          "code" : "SPECIAL-UNKNOWN",
+          "display" : "Special/Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-interpretation",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-vl-interpretation",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-vl-interpretation.html\">Viral load Interpretation v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-interpretation-D\"> </a>  <a href=\"CodeSystem-cs-vl-interpretation.html#cs-vl-interpretation-D\">D</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation</td><td>Detectable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-interpretation-ND\"> </a>  <a href=\"CodeSystem-cs-vl-interpretation.html#cs-vl-interpretation-ND\">ND</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation</td><td>Non Detectable</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---jembi.org-fhir-hiv-casereporting-CodeSystem-cs-vl-interpretation-UNK\"> </a>  <a href=\"CodeSystem-cs-vl-interpretation.html#cs-vl-interpretation-UNK\">UNK</a></td><td>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-interpretation",
+      "version" : "0.1.0-test",
+      "name" : "VSVLInterpretation",
+      "title" : "Viral load Interpretation",
+      "status" : "active",
+      "date" : "2022-11-24T14:29:27+00:00",
+      "publisher" : "xxxYour Work Group",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://xxhl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "Valueset - Viral load Interpretations",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:30c7b5e4-86f2-45e0-98d2-4e59591fd597",
+        "timestamp" : "2022-11-24T14:31:23+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation|0.1.0-test"
+        }],
+        "contains" : [{
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation",
+          "code" : "D",
+          "display" : "Detectable"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation",
+          "code" : "ND",
+          "display" : "Non Detectable"
+        },
+        {
+          "system" : "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation",
+          "code" : "UNK",
+          "display" : "Unknown"
         }]
       }
     }

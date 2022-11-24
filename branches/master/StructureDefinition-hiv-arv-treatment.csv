@@ -23,7 +23,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.extension:artStatus","CarePlan.extension","artStatus","","",1,1,"Y","","","Extension {[CanonicalType[http://example.com/fhir/example/StructureDefinition/art-status]]} {[]}
+"CarePlan.extension:artStatus","CarePlan.extension","artStatus","","",1,1,"Y","","","Extension {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status]]} {[]}
 ","ART Status","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -156,7 +156,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.activity.detail.extension:artRegimenLine","CarePlan.activity.detail.extension","artRegimenLine","","",1,1,"Y","","","Extension {[CanonicalType[http://example.com/fhir/example/StructureDefinition/art-regimen-line]]} {[]}
+"CarePlan.activity.detail.extension:artRegimenLine","CarePlan.activity.detail.extension","artRegimenLine","","",1,1,"Y","","","Extension {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line]]} {[]}
 ","ART Regimen Line","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

@@ -5,12 +5,12 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  439771001 (Date of event (observable entity))</li><li>Include codes from <code>https://openconceptlab.org</code> where concept  is-a  162572</li></ul></div>"
   },
-  "url": "http://example.com/fhir/example/ValueSet/vs-careplan-outcome",
+  "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-careplan-outcome",
   "version": "0.1.0-test",
   "name": "VSCarePlanActivityOutcome",
   "title": "ARV treatment outcomes",
   "status": "active",
-  "date": "2022-11-15T14:41:26+00:00",
+  "date": "2022-11-24T14:29:27+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {

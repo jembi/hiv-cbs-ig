@@ -243,7 +243,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""CLIENT-REGISTRATION""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -269,11 +269,11 @@ If the section has content (instead of sub-sections), the section.code does not 
 ","",,"closed","Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivPatientSection.entry:hivPatient","Composition.section.entry","hivPatient","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-patient]]}
+"Composition.section:hivPatientSection.entry:hivPatient","Composition.section.entry","hivPatient","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-patient]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivPatientSection.entry:hivRelatedPerson","Composition.section.entry","hivRelatedPerson","","",0,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-related-person]]}
+"Composition.section:hivPatientSection.entry:hivRelatedPerson","Composition.section.entry","hivRelatedPerson","","",0,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-related-person]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -308,7 +308,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""HIV-DIAGNOSIS""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -329,28 +329,28 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section:hivDiagnosisSection.orderedBy","Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section:hivDiagnosisSection.entry","Composition.section.entry","","","",5,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-diagnosis], CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-disgnosis-encounter], CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-recency-test-conducted], CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-recency-result], CanonicalType[http://example.com/fhir/example/StructureDefinition/date-tested-for-hiv]]}
+"Composition.section:hivDiagnosisSection.entry","Composition.section.entry","","","",5,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-diagnosis], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-disgnosis-encounter], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-recency-test-conducted], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-recency-result], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/date-tested-for-hiv]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"","profile:item.resolve()}
 ","",,"closed","Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivDiagnosisSection.entry:hivDiagnosis","Composition.section.entry","hivDiagnosis","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-diagnosis]]}
+"Composition.section:hivDiagnosisSection.entry:hivDiagnosis","Composition.section.entry","hivDiagnosis","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-diagnosis]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivDiagnosisSection.entry:hivDiagnosisEncounter","Composition.section.entry","hivDiagnosisEncounter","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-disgnosis-encounter]]}
+"Composition.section:hivDiagnosisSection.entry:hivDiagnosisEncounter","Composition.section.entry","hivDiagnosisEncounter","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-disgnosis-encounter]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivDiagnosisSection.entry:hivRecencyTestConducted","Composition.section.entry","hivRecencyTestConducted","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-recency-test-conducted]]}
+"Composition.section:hivDiagnosisSection.entry:hivRecencyTestConducted","Composition.section.entry","hivRecencyTestConducted","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-recency-test-conducted]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivDiagnosisSection.entry:hivRecencyResult","Composition.section.entry","hivRecencyResult","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-recency-result]]}
+"Composition.section:hivDiagnosisSection.entry:hivRecencyResult","Composition.section.entry","hivRecencyResult","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-recency-result]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivDiagnosisSection.entry:hivTestDate","Composition.section.entry","hivTestDate","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/date-tested-for-hiv]]}
+"Composition.section:hivDiagnosisSection.entry:hivTestDate","Composition.section.entry","hivTestDate","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/date-tested-for-hiv]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -385,7 +385,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""HIV-ENTRY-TO-CARE""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -406,20 +406,20 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section:hivEntryToCareSection.orderedBy","Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section:hivEntryToCareSection.entry","Composition.section.entry","","","",2,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-episode-of-care], CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-clinical-encounter], CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-transfer-out]]}
+"Composition.section:hivEntryToCareSection.entry","Composition.section.entry","","","",2,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-episode-of-care], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-clinical-encounter], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-transfer-out]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"","profile:item.resolve()}
 ","",,"closed","Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivEntryToCareSection.entry:hivEpisodeOfCare","Composition.section.entry","hivEpisodeOfCare","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-episode-of-care]]}
+"Composition.section:hivEntryToCareSection.entry:hivEpisodeOfCare","Composition.section.entry","hivEpisodeOfCare","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-episode-of-care]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivEntryToCareSection.entry:hivClinicalEncounter","Composition.section.entry","hivClinicalEncounter","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-clinical-encounter]]}
+"Composition.section:hivEntryToCareSection.entry:hivClinicalEncounter","Composition.section.entry","hivClinicalEncounter","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-clinical-encounter]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:hivEntryToCareSection.entry:hivTransferOut","Composition.section.entry","hivTransferOut","","",0,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-transfer-out]]}
+"Composition.section:hivEntryToCareSection.entry:hivTransferOut","Composition.section.entry","hivTransferOut","","",0,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-transfer-out]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -454,7 +454,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""ARV-TREATMENT""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -475,16 +475,16 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section:arvTreatmentSection.orderedBy","Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section:arvTreatmentSection.entry","Composition.section.entry","","","",2,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-arv-treatment], CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-med-req]]}
+"Composition.section:arvTreatmentSection.entry","Composition.section.entry","","","",2,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-arv-treatment], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-med-req]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"","profile:item.resolve()}
 ","",,"closed","Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:arvTreatmentSection.entry:arvTreatment","Composition.section.entry","arvTreatment","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-arv-treatment]]}
+"Composition.section:arvTreatmentSection.entry:arvTreatment","Composition.section.entry","arvTreatment","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-arv-treatment]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:arvTreatmentSection.entry:hivCareMedicationRequest","Composition.section.entry","hivCareMedicationRequest","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-med-req]]}
+"Composition.section:arvTreatmentSection.entry:hivCareMedicationRequest","Composition.section.entry","hivCareMedicationRequest","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-med-req]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -519,7 +519,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""CD4""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -540,7 +540,7 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section:cd4Section.orderedBy","Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section:cd4Section.entry","Composition.section.entry","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-cd4-test]]}
+"Composition.section:cd4Section.entry","Composition.section.entry","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-cd4-test]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -575,7 +575,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""VIRAL-SUPPRESSION""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -596,16 +596,16 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section:viralSuppressionSection.orderedBy","Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section:viralSuppressionSection.entry","Composition.section.entry","","","",2,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression], CanonicalType[http://example.com/fhir/example/StructureDefinition/vl-procedure-info]]}
+"Composition.section:viralSuppressionSection.entry","Composition.section.entry","","","",2,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression], CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure-info]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"","profile:item.resolve()}
 ","",,"closed","Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:viralSuppressionSection.entry:viralLoadSuppression","Composition.section.entry","viralLoadSuppression","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression]]}
+"Composition.section:viralSuppressionSection.entry:viralLoadSuppression","Composition.section.entry","viralLoadSuppression","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
-"Composition.section:viralSuppressionSection.entry:vlProcedureInfo","Composition.section.entry","vlProcedureInfo","","",1,1,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/vl-procedure-info]]}
+"Composition.section:viralSuppressionSection.entry:vlProcedureInfo","Composition.section.entry","vlProcedureInfo","","",1,1,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure-info]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -640,7 +640,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-case-report-sections""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections""/>
     <code value=""DEATH""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -661,7 +661,7 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section:deathSection.orderedBy","Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section:deathSection.entry","Composition.section.entry","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://example.com/fhir/example/StructureDefinition/death-obs]]}
+"Composition.section:deathSection.entry","Composition.section.entry","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/death-obs]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"

@@ -3,14 +3,14 @@
   "id": "cs-art-status",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/cs-art-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">164349<a name=\"cs-art-status-164349\"> </a></td><td>Interruption in Treatment</td></tr><tr><td style=\"white-space:nowrap\">Active<a name=\"cs-art-status-Active\"> </a></td><td>Active</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"cs-art-status-159\"> </a></td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\">159492<a name=\"cs-art-status-159492\"> </a></td><td>Transferred-OUT</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">164349<a name=\"cs-art-status-164349\"> </a></td><td>Interruption in Treatment</td></tr><tr><td style=\"white-space:nowrap\">Active<a name=\"cs-art-status-Active\"> </a></td><td>Active</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"cs-art-status-159\"> </a></td><td>Dead</td></tr><tr><td style=\"white-space:nowrap\">159492<a name=\"cs-art-status-159492\"> </a></td><td>Transferred-OUT</td></tr></table></div>"
   },
-  "url": "http://example.com/fhir/example/CodeSystem/cs-art-status",
+  "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status",
   "version": "0.1.0-test",
   "name": "CSARTStatus",
   "title": "ART Status code list",
   "status": "active",
-  "date": "2022-11-15T14:41:26+00:00",
+  "date": "2022-11-24T14:29:27+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {

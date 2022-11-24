@@ -5,7 +5,7 @@
   "jurisdiction": "001",
   "extensions": [
     {
-      "url": "http://example.com/fhir/example/StructureDefinition/art-regimen-line",
+      "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line",
       "title": "ART Regimen Line",
       "types": [
         "CodeableConcept",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "url": "http://example.com/fhir/example/StructureDefinition/art-status",
+      "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status",
       "title": "ART Status",
       "types": [
         "CodeableConcept",
@@ -21,14 +21,14 @@
       ]
     },
     {
-      "url": "http://example.com/fhir/example/StructureDefinition/hiv-care-next-visit",
+      "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-care-next-visit",
       "title": "Next Appointment Date",
       "types": [
         "dateTime"
       ]
     },
     {
-      "url": "http://example.com/fhir/example/StructureDefinition/key-population",
+      "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/key-population",
       "title": "Key population",
       "types": [
         "CodeableConcept",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "url": "http://example.com/fhir/example/StructureDefinition/last-clinical-visit",
+      "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/last-clinical-visit",
       "title": "Last Clinical Visit",
       "types": [
         "dateTime"
@@ -46,111 +46,96 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression",
         "title": "HIV viral load suppression"
       },
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression-most-recent-test-date",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression-most-recent-test-date",
         "title": "HIV Viral Load Suppression Most Recent Test Date"
       },
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-viral-load-suppression-most-recent-test-result",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression-most-recent-test-result",
         "title": "HIV Viral Load Suppression Most Recent Test Result"
       }
     ],
     "CarePlan": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-arv-treatment",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-arv-treatment",
         "title": "ARVCarePlan"
       }
     ],
     "Encounter": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-disgnosis-encounter",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-disgnosis-encounter",
         "title": "HIV Diagnosis Encounter"
       }
     ],
     "Composition": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-composition",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-composition",
         "title": "HIV Case Reporting Composition"
       }
     ],
     "Condition": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-diagnosis",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-diagnosis",
         "title": "HIV Diagnosis"
       }
     ],
     "EpisodeOfCare": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-episode-of-care",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-episode-of-care",
         "title": "HIV Episode Of Care"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-med-req",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-med-req",
         "title": "HIV Care Medication Request"
       }
     ],
     "Organization": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-organization",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-organization",
         "title": "HIV Organization"
       }
     ],
     "Patient": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-patient",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-patient",
         "title": "HIV Patient"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-related-person",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-related-person",
         "title": "HIV Related Person"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-service-request",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-service-request",
         "title": "HIV Service Request"
       },
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/hiv-transfer-out",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-transfer-out",
         "title": "HIV Transfer Out Request"
       }
     ],
     "Specimen": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/viral-load-specimen",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/viral-load-specimen",
         "title": "Viral Load Specimen"
       }
     ],
     "Procedure": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/vl-procedure-info",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure-info",
         "title": "VL Procedure info"
       }
     ]
   },
   "usage": {
-    "http://example.com/fhir/example/StructureDefinition/art-regimen-line": [
-      "CarePlan.activity.detail"
-    ],
-    "http://example.com/fhir/example/StructureDefinition/art-status": [
-      "CarePlan"
-    ],
-    "http://example.com/fhir/example/StructureDefinition/hiv-care-next-visit": [
-      "Encounter"
-    ],
-    "http://example.com/fhir/example/StructureDefinition/key-population": [
-      "Patient"
-    ],
-    "http://example.com/fhir/example/StructureDefinition/last-clinical-visit": [
-      "Observation"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -165,6 +150,10 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity": [
+      "Bundle.entry.resource",
+      "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
@@ -199,6 +188,26 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line": [
+      "Bundle.entry.resource.activity.detail",
+      "CarePlan.activity.detail"
+    ],
+    "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status": [
+      "Bundle.entry.resource",
+      "CarePlan"
+    ],
+    "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-care-next-visit": [
+      "Bundle.entry.resource",
+      "Encounter"
+    ],
+    "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/key-population": [
+      "Bundle.entry.resource",
+      "Patient"
+    ],
+    "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/last-clinical-visit": [
+      "Bundle.entry.resource",
+      "Observation"
     ]
   }
 }

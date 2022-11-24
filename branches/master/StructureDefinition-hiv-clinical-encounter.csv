@@ -23,7 +23,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Encounter.extension:next-visit","Encounter.extension","next-visit","","",0,1,"Y","","","Extension {[CanonicalType[http://example.com/fhir/example/StructureDefinition/hiv-care-next-visit]]} {[]}
+"Encounter.extension:next-visit","Encounter.extension","next-visit","","",0,1,"Y","","","Extension {[CanonicalType[http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-care-next-visit]]} {[]}
 ","Next Appointment Date","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
