@@ -50,7 +50,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Type of observation (code / type)","Describes what was observed. Sometimes this is called the observation ""name"".","*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://example.com/fhir/example/CodeSystem/cs-hiv-obs-codes""/>
+    <system value=""http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-hiv-obs-codes""/>
     <code value=""HIV-RECENCY-TEST-CONDUCTED""/>
     <display value=""VL most recent test result""/>
   </coding>

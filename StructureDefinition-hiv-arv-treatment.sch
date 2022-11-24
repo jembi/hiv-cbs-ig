@@ -12,8 +12,8 @@
   <sch:pattern>
     <sch:title>f:CarePlan</sch:title>
     <sch:rule context="f:CarePlan">
-      <sch:assert test="count(f:extension[@url = 'http://example.com/fhir/example/StructureDefinition/art-status']) &gt;= 1">extension with URL = 'http://example.com/fhir/example/StructureDefinition/art-status': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.com/fhir/example/StructureDefinition/art-status']) &lt;= 1">extension with URL = 'http://example.com/fhir/example/StructureDefinition/art-status': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status']) &gt;= 1">extension with URL = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status']) &lt;= 1">extension with URL = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:activity) &gt;= 1">activity: minimum cardinality of 'activity' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -260,8 +260,8 @@
   <sch:pattern>
     <sch:title>f:CarePlan/f:activity/f:detail</sch:title>
     <sch:rule context="f:CarePlan/f:activity/f:detail">
-      <sch:assert test="count(f:extension[@url = 'http://example.com/fhir/example/StructureDefinition/art-regimen-line']) &gt;= 1">extension with URL = 'http://example.com/fhir/example/StructureDefinition/art-regimen-line': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.com/fhir/example/StructureDefinition/art-regimen-line']) &lt;= 1">extension with URL = 'http://example.com/fhir/example/StructureDefinition/art-regimen-line': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line']) &gt;= 1">extension with URL = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line']) &lt;= 1">extension with URL = 'http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

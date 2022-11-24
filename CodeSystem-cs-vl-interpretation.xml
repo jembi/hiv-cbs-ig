@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="cs-vl-interpretation"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/example/CodeSystem/cs-vl-interpretation</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">D<a name="cs-vl-interpretation-D"> </a></td><td>Detectable</td></tr><tr><td style="white-space:nowrap">ND<a name="cs-vl-interpretation-ND"> </a></td><td>Non Detectable</td></tr><tr><td style="white-space:nowrap">UNK<a name="cs-vl-interpretation-UNK"> </a></td><td>Unknown</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">D<a name="cs-vl-interpretation-D"> </a></td><td>Detectable</td></tr><tr><td style="white-space:nowrap">ND<a name="cs-vl-interpretation-ND"> </a></td><td>Non Detectable</td></tr><tr><td style="white-space:nowrap">UNK<a name="cs-vl-interpretation-UNK"> </a></td><td>Unknown</td></tr></table></div>
   </text>
-  <url value="http://example.com/fhir/example/CodeSystem/cs-vl-interpretation"/>
+  <url value="http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation"/>
   <version value="0.1.0-test"/>
   <name value="CSVLInterpretation"/>
   <title value="Viral load Interpretation"/>
   <status value="active"/>
-  <date value="2022-11-15T14:41:26+00:00"/>
+  <date value="2022-11-24T14:29:27+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>

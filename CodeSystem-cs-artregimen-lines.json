@@ -3,14 +3,14 @@
   "id": "cs-artregimen-lines",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/cs-artregimen-lines</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">FIRST-LINE<a name=\"cs-artregimen-lines-FIRST-LINE\"> </a></td><td>First line ARTs</td></tr><tr><td style=\"white-space:nowrap\">SECOND-LINE<a name=\"cs-artregimen-lines-SECOND-LINE\"> </a></td><td>Second line ARTs</td></tr><tr><td style=\"white-space:nowrap\">THIRD-LINE<a name=\"cs-artregimen-lines-THIRD-LINE\"> </a></td><td>Third line ARTs</td></tr><tr><td style=\"white-space:nowrap\">SPECIAL-UNKNOWN<a name=\"cs-artregimen-lines-SPECIAL-UNKNOWN\"> </a></td><td>Special/Unknown</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">FIRST-LINE<a name=\"cs-artregimen-lines-FIRST-LINE\"> </a></td><td>First line ARTs</td></tr><tr><td style=\"white-space:nowrap\">SECOND-LINE<a name=\"cs-artregimen-lines-SECOND-LINE\"> </a></td><td>Second line ARTs</td></tr><tr><td style=\"white-space:nowrap\">THIRD-LINE<a name=\"cs-artregimen-lines-THIRD-LINE\"> </a></td><td>Third line ARTs</td></tr><tr><td style=\"white-space:nowrap\">SPECIAL-UNKNOWN<a name=\"cs-artregimen-lines-SPECIAL-UNKNOWN\"> </a></td><td>Special/Unknown</td></tr></table></div>"
   },
-  "url": "http://example.com/fhir/example/CodeSystem/cs-artregimen-lines",
+  "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines",
   "version": "0.1.0-test",
   "name": "CSARTRegimenLines",
   "title": "ART Regimen Lines",
   "status": "active",
-  "date": "2022-11-15T14:41:26+00:00",
+  "date": "2022-11-24T14:29:27+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {

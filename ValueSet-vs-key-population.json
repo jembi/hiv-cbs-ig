@@ -3,14 +3,14 @@
   "id": "vs-key-population",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-key-population.html\"><code>http://example.com/fhir/example/CodeSystem/cs-key-population</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-key-population.html\"><code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population</code></a></li></ul></div>"
   },
-  "url": "http://example.com/fhir/example/ValueSet/vs-key-population",
+  "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-key-population",
   "version": "0.1.0-test",
   "name": "VSKeyPopulation",
   "title": "Key population",
   "status": "active",
-  "date": "2022-11-15T14:41:26+00:00",
+  "date": "2022-11-24T14:29:27+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -36,7 +36,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://example.com/fhir/example/CodeSystem/cs-key-population"
+        "system": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population"
       }
     ]
   }

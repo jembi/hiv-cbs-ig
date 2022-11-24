@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="vs-hiv-vl-reason"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-vl-reason-codes.html"><code>http://example.com/fhir/example/CodeSystem/vl-reason-codes</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-vl-reason-codes.html"><code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes</code></a></li></ul></div>
   </text>
-  <url value="http://example.com/fhir/example/ValueSet/vs-hiv-vl-reason"/>
+  <url value="http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-hiv-vl-reason"/>
   <version value="0.1.0-test"/>
   <name value="VSHIVVLReason"/>
   <title value="HIV VL Reason codes"/>
   <status value="active"/>
-  <date value="2022-11-15T14:41:26+00:00"/>
+  <date value="2022-11-24T14:29:27+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -27,7 +27,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://example.com/fhir/example/CodeSystem/vl-reason-codes"/>
+      <system value="http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes"/>
     </include>
   </compose>
 </ValueSet>
