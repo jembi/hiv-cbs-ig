@@ -11,7 +11,7 @@
   "title": "xxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2022-11-24T14:29:27+00:00",
+  "date": "2022-11-30T18:31:51+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -447,19 +447,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/hiv-composition"
-        },
-        "name": "HIV Case Reporting Composition",
-        "description": "HIV Case Reporting Composition"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/hiv-arv-treatment"
         },
         "name": "ARVCarePlan",
@@ -553,6 +540,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/HIVCaseReportingSubmitBundleExample"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -560,18 +558,6 @@
           "reference": "CodeSystem/cs-case-report-sections"
         },
         "name": "HIV Case Report Sections codesystem"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Composition"
-          }
-        ],
-        "reference": {
-          "reference": "Composition/HIVCompositionExample"
-        },
-        "name": "HIV Case Report"
       },
       {
         "extension": [
@@ -673,12 +659,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Bundle"
+            "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
-          "reference": "Bundle/HIVCaseReportingSubmitExample"
-        }
+          "reference": "StructureDefinition/hiv-patient"
+        },
+        "name": "HIV Patient",
+        "description": "This Patient profile allows the exchange of patient information, including all the data associated with HIV patients"
       },
       {
         "extension": [
@@ -688,10 +676,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/hiv-patient"
+          "reference": "StructureDefinition/vl-procedure"
         },
-        "name": "HIV Patient",
-        "description": "This Patient profile allows the exchange of patient information, including all the data associated with HIV patients"
+        "name": "VL Procedure info",
+        "description": "VL Procedure info"
       },
       {
         "extension": [
@@ -932,6 +920,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/HIVMedicationDispenseExample"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Observation"
           }
         ],
@@ -1079,6 +1078,18 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/hiv-medication-dispense"
+        },
+        "name": "HIV Medication Dispense"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Specimen"
           }
         ],
@@ -1109,19 +1120,6 @@
         "reference": {
           "reference": "ServiceRequest/HIVServiceRequestExample"
         }
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/vl-procedure-info"
-        },
-        "name": "VL Procedure info",
-        "description": "VL Procedure info"
       },
       {
         "extension": [

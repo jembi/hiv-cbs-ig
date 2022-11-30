@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationDispense xmlns="http://hl7.org/fhir">
+  <id value="HIVMedicationDispenseExample"/>
+  <meta>
+    <profile value="http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-medication-dispense"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationDispense</b><a name="HIVMedicationDispenseExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationDispense &quot;HIVMedicationDispenseExample&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hiv-medication-dispense.html">HIV Medication Dispense</a></p></div><p><b>status</b>: completed</p><p><b>medication</b>: Date of event (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#439771001)</span></p><p><b>subject</b>: <a href="Patient-HIVPatientExample.html">Patient/HIVPatientExample</a> &quot; SMITH&quot;</p><p><b>context</b>: <a href="Encounter/HIVClinicalEncounter">Encounter/HIVClinicalEncounter</a></p><p><b>quantity</b>: 1(unit TAB from http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm)<span style="background: LightGoldenRodYellow"> (Details: http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm code TAB = 'Tablet')</span></p></div>
+  </text>
+  <status value="completed"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="439771001"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/HIVPatientExample"/>
+  </subject>
+  <context>
+    <reference value="Encounter/HIVClinicalEncounter"/>
+  </context>
+  <quantity>
+    <value value="1"/>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"/>
+    <code value="TAB"/>
+  </quantity>
+</MedicationDispense>

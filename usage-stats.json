@@ -70,12 +70,6 @@
         "title": "HIV Diagnosis Encounter"
       }
     ],
-    "Composition": [
-      {
-        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-composition",
-        "title": "HIV Case Reporting Composition"
-      }
-    ],
     "Condition": [
       {
         "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-diagnosis",
@@ -92,6 +86,12 @@
       {
         "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-med-req",
         "title": "HIV Care Medication Request"
+      }
+    ],
+    "MedicationDispense": [
+      {
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-medication-dispense",
+        "title": "HIV Medication Dispense"
       }
     ],
     "Organization": [
@@ -130,7 +130,7 @@
     ],
     "Procedure": [
       {
-        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure-info",
+        "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure",
         "title": "VL Procedure info"
       }
     ]

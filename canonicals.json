@@ -126,13 +126,6 @@
     "name": "HIVClinicalEncounter"
   },
   {
-    "id": "hiv-composition",
-    "type": "StructureDefinition",
-    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-composition",
-    "version": "0.1.0-test",
-    "name": "HIVComposition"
-  },
-  {
     "id": "hiv-date-recency-test",
     "type": "StructureDefinition",
     "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-date-recency-test",
@@ -166,6 +159,13 @@
     "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-med-req",
     "version": "0.1.0-test",
     "name": "HIVCareMedicationRequest"
+  },
+  {
+    "id": "hiv-medication-dispense",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-medication-dispense",
+    "version": "0.1.0-test",
+    "name": "HIVMedicationDispense"
   },
   {
     "id": "hiv-organization",
@@ -259,9 +259,9 @@
     "name": "VLSpecimen"
   },
   {
-    "id": "vl-procedure-info",
+    "id": "vl-procedure",
     "type": "StructureDefinition",
-    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure-info",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure",
     "version": "0.1.0-test",
     "name": "VLProcedureInfo"
   },

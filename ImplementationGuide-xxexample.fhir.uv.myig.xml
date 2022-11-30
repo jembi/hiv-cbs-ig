@@ -12,7 +12,7 @@
   <title value="xxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-11-24T14:29:27+00:00"/>
+  <date value="2022-11-30T18:31:51+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -292,16 +292,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/hiv-composition"/>
-      </reference>
-      <name value="HIV Case Reporting Composition"/>
-      <description value="HIV Case Reporting Composition"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/hiv-arv-treatment"/>
       </reference>
       <name value="ARVCarePlan"/>
@@ -372,21 +362,20 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/HIVCaseReportingSubmitBundleExample"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
         <reference value="CodeSystem/cs-case-report-sections"/>
       </reference>
       <name value="HIV Case Report Sections codesystem"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
-        <reference value="Composition/HIVCompositionExample"/>
-      </reference>
-      <name value="HIV Case Report"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -462,14 +451,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/HIVCaseReportingSubmitExample"/>
-      </reference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -477,6 +458,16 @@
       </reference>
       <name value="HIV Patient"/>
       <description value="This Patient profile allows the exchange of patient information, including all the data associated with HIV patients"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vl-procedure"/>
+      </reference>
+      <name value="VL Procedure info"/>
+      <description value="VL Procedure info"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -658,6 +649,14 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/HIVMedicationDispenseExample"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -769,6 +768,15 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hiv-medication-dispense"/>
+      </reference>
+      <name value="HIV Medication Dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Specimen"/>
       </extension>
       <reference>
@@ -792,16 +800,6 @@
       <reference>
         <reference value="ServiceRequest/HIVServiceRequestExample"/>
       </reference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/vl-procedure-info"/>
-      </reference>
-      <name value="VL Procedure info"/>
-      <description value="VL Procedure info"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
