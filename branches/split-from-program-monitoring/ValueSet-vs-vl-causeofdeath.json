@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-vl-causeofdeath",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cs-vl-causeofdeath.html\"><code>http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath</code></a></li></ul></div>"
+  },
+  "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-causeofdeath",
+  "version": "0.1.0-test",
+  "name": "VSVLCauseOfDeath",
+  "title": "Cause Of Death",
+  "status": "active",
+  "date": "2022-11-30T18:31:51+00:00",
+  "publisher": "xxxYour Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://xxhl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "Valueset - CauseOfDeaths",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath"
+      }
+    ]
+  }
+}

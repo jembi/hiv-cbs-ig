@@ -1,0 +1,338 @@
+[
+  {
+    "id": "cs-art-status",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-art-status",
+    "version": "0.1.0-test",
+    "name": "CSARTStatus"
+  },
+  {
+    "id": "cs-artregimen-lines",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-artregimen-lines",
+    "version": "0.1.0-test",
+    "name": "CSARTRegimenLines"
+  },
+  {
+    "id": "cs-case-report-sections",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-case-report-sections",
+    "version": "0.1.0-test",
+    "name": "CSCaseReportSections"
+  },
+  {
+    "id": "cs-hiv-obs-codes",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-hiv-obs-codes",
+    "version": "0.1.0-test",
+    "name": "CSHIVObsCodes"
+  },
+  {
+    "id": "cs-key-population",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-key-population",
+    "version": "0.1.0-test",
+    "name": "CSKeyPopulation"
+  },
+  {
+    "id": "cs-vl-causeofdeath",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-causeofdeath",
+    "version": "0.1.0-test",
+    "name": "CSVLCauseOfDeath"
+  },
+  {
+    "id": "cs-vl-interpretation",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-interpretation",
+    "version": "0.1.0-test",
+    "name": "CSVLInterpretation"
+  },
+  {
+    "id": "cs-vl-suppression",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/cs-vl-suppression",
+    "version": "0.1.0-test",
+    "name": "CSVLSuppression"
+  },
+  {
+    "id": "vl-reason-codes",
+    "type": "CodeSystem",
+    "url": "http://jembi.org/fhir/hiv-casereporting/CodeSystem/vl-reason-codes",
+    "version": "0.1.0-test",
+    "name": "CSHIVVLReason"
+  },
+  {
+    "id": "art-regimen-line",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-regimen-line",
+    "version": "0.1.0-test",
+    "name": "ARTRegimenLine"
+  },
+  {
+    "id": "art-status",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/art-status",
+    "version": "0.1.0-test",
+    "name": "ARTStatus"
+  },
+  {
+    "id": "date-tested-for-hiv",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/date-tested-for-hiv",
+    "version": "0.1.0-test",
+    "name": "HIVTestDate"
+  },
+  {
+    "id": "death-obs",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/death-obs",
+    "version": "0.1.0-test",
+    "name": "DeathObs"
+  },
+  {
+    "id": "hiv-acutal-recency-test-result",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-acutal-recency-test-result",
+    "version": "0.1.0-test",
+    "name": "HIVActualRecencyTestResult"
+  },
+  {
+    "id": "hiv-arv-treatment",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-arv-treatment",
+    "version": "0.1.0-test",
+    "name": "ARVTreatment"
+  },
+  {
+    "id": "hiv-care-next-visit",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-care-next-visit",
+    "version": "0.1.0-test",
+    "name": "HIVCareNextAppointment"
+  },
+  {
+    "id": "hiv-cd4-test",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-cd4-test",
+    "version": "0.1.0-test",
+    "name": "CD4"
+  },
+  {
+    "id": "hiv-clinical-encounter",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-clinical-encounter",
+    "version": "0.1.0-test",
+    "name": "HIVClinicalEncounter"
+  },
+  {
+    "id": "hiv-date-recency-test",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-date-recency-test",
+    "version": "0.1.0-test",
+    "name": "HIVDateOfRecencyTest"
+  },
+  {
+    "id": "hiv-diagnosis",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-diagnosis",
+    "version": "0.1.0-test",
+    "name": "HIVDiagnosis"
+  },
+  {
+    "id": "hiv-disgnosis-encounter",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-disgnosis-encounter",
+    "version": "0.1.0-test",
+    "name": "HIVDiagnosisEncounter"
+  },
+  {
+    "id": "hiv-episode-of-care",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-episode-of-care",
+    "version": "0.1.0-test",
+    "name": "HIVEpisodeOfCare"
+  },
+  {
+    "id": "hiv-med-req",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-med-req",
+    "version": "0.1.0-test",
+    "name": "HIVCareMedicationRequest"
+  },
+  {
+    "id": "hiv-medication-dispense",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-medication-dispense",
+    "version": "0.1.0-test",
+    "name": "HIVMedicationDispense"
+  },
+  {
+    "id": "hiv-organization",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-organization",
+    "version": "0.1.0-test",
+    "name": "HIVOrganization"
+  },
+  {
+    "id": "hiv-patient",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-patient",
+    "version": "0.1.0-test",
+    "name": "HIVPatient"
+  },
+  {
+    "id": "hiv-recency-result",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-recency-result",
+    "version": "0.1.0-test",
+    "name": "HIVRecencyResult"
+  },
+  {
+    "id": "hiv-recency-test-conducted",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-recency-test-conducted",
+    "version": "0.1.0-test",
+    "name": "HIVRecencyTestConducted"
+  },
+  {
+    "id": "hiv-related-person",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-related-person",
+    "version": "0.1.0-test",
+    "name": "HIVRelatedPerson"
+  },
+  {
+    "id": "hiv-service-request",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-service-request",
+    "version": "0.1.0-test",
+    "name": "HIVServiceRequest"
+  },
+  {
+    "id": "hiv-transfer-out",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-transfer-out",
+    "version": "0.1.0-test",
+    "name": "HIVTransferOut"
+  },
+  {
+    "id": "hiv-viral-load-suppression",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression",
+    "version": "0.1.0-test",
+    "name": "ViralLoadSuppression"
+  },
+  {
+    "id": "hiv-viral-load-suppression-most-recent-test-date",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression-most-recent-test-date",
+    "version": "0.1.0-test",
+    "name": "ViralLoadSuppressionMostRecentTestDate"
+  },
+  {
+    "id": "hiv-viral-load-suppression-most-recent-test-result",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/hiv-viral-load-suppression-most-recent-test-result",
+    "version": "0.1.0-test",
+    "name": "ViralLoadSuppressionMostRecentTestResult"
+  },
+  {
+    "id": "key-population",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/key-population",
+    "version": "0.1.0-test",
+    "name": "KeyPopulation"
+  },
+  {
+    "id": "last-clinical-visit",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/last-clinical-visit",
+    "version": "0.1.0-test",
+    "name": "LastClinicalVisit"
+  },
+  {
+    "id": "viral-load-specimen",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/viral-load-specimen",
+    "version": "0.1.0-test",
+    "name": "VLSpecimen"
+  },
+  {
+    "id": "vl-procedure",
+    "type": "StructureDefinition",
+    "url": "http://jembi.org/fhir/hiv-casereporting/StructureDefinition/vl-procedure",
+    "version": "0.1.0-test",
+    "name": "VLProcedureInfo"
+  },
+  {
+    "id": "vs-art-status",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-art-status",
+    "version": "0.1.0-test",
+    "name": "VSARTStatus"
+  },
+  {
+    "id": "vs-artregimen-lines",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-artregimen-lines",
+    "version": "0.1.0-test",
+    "name": "VSARTRegimenLines"
+  },
+  {
+    "id": "vs-careplan-outcome",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-careplan-outcome",
+    "version": "0.1.0-test",
+    "name": "VSCarePlanActivityOutcome"
+  },
+  {
+    "id": "vs-hiv-vl-reason",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-hiv-vl-reason",
+    "version": "0.1.0-test",
+    "name": "VSHIVVLReason"
+  },
+  {
+    "id": "vs-key-population",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-key-population",
+    "version": "0.1.0-test",
+    "name": "VSKeyPopulation"
+  },
+  {
+    "id": "vs-marital-status",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-marital-status",
+    "version": "0.1.0-test",
+    "name": "VSMaritalStatus"
+  },
+  {
+    "id": "vs-vl-causeofdeath",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-causeofdeath",
+    "version": "0.1.0-test",
+    "name": "VSVLCauseOfDeath"
+  },
+  {
+    "id": "vs-vl-interpretation",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-interpretation",
+    "version": "0.1.0-test",
+    "name": "VSVLInterpretation"
+  },
+  {
+    "id": "vs-vl-suppression",
+    "type": "ValueSet",
+    "url": "http://jembi.org/fhir/hiv-casereporting/ValueSet/vs-vl-suppression",
+    "version": "0.1.0-test",
+    "name": "VSVLSuppression"
+  },
+  {
+    "id": "xxexample.fhir.uv.myig",
+    "type": "ImplementationGuide",
+    "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+    "version": "0.1.0-test",
+    "name": "XXYourComputableMyIGNameHere"
+  }
+]
