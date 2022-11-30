@@ -1,103 +1,3 @@
-Profile: HIVComposition
-Parent: Composition
-Id: hiv-composition
-Description: "HIV Case Reporting Composition"
-Title: "HIV Case Reporting Composition"
-* type = $LNC#95412-3
-* category = $LNC#75218-8
-* identifier.system = "http://openhie.org/fhir/hiv-casereporting/identifier/hiv-case-report"
-
-* section ^slicing.discriminator.type = #pattern
-* section ^slicing.discriminator.path = "code"
-* section ^slicing.rules = #openAtEnd
-* section ^slicing.ordered = true
-* section ^slicing.description = "Slice of composition.section based on code"
-* section contains
-    hivPatientSection 1..1 and
-    hivDiagnosisSection 0..1 and
-    hivEntryToCareSection 0..1 and
-    arvTreatmentSection 0..1 and
-    cd4Section 0..1 and
-    viralSuppressionSection 0..1 and
-    deathSection 0..1
-
-* section[hivPatientSection].title = "Client registration"
-* section[hivPatientSection].code = CSCaseReportSections#CLIENT-REGISTRATION
-* section[hivPatientSection].entry ^slicing.discriminator.type = #profile
-* section[hivPatientSection].entry ^slicing.discriminator.path = "item.resolve()"
-* section[hivPatientSection].entry ^slicing.rules = #closed
-* section[hivPatientSection].entry contains
-    hivPatient 1..1 and
-    hivRelatedPerson 0..*
-* section[hivPatientSection].entry[hivPatient] only Reference(HIVPatient)
-* section[hivPatientSection].entry[hivRelatedPerson] only Reference(HIVRelatedPerson)
-
-* section[hivDiagnosisSection].title = "HIV Diagnosis"
-* section[hivDiagnosisSection].code = CSCaseReportSections#HIV-DIAGNOSIS
-* section[hivDiagnosisSection].entry only Reference(HIVDiagnosis or HIVDiagnosisEncounter or HIVRecencyTestConducted or HIVRecencyResult or HIVTestDate)
-* section[hivDiagnosisSection].entry ^slicing.discriminator.type = #profile
-* section[hivDiagnosisSection].entry ^slicing.discriminator.path = "item.resolve()"
-* section[hivDiagnosisSection].entry ^slicing.rules = #closed
-* section[hivDiagnosisSection].entry contains
-    hivDiagnosis 1..1 and
-    hivDiagnosisEncounter 1..1 and
-    hivRecencyTestConducted 1..1 and
-    hivRecencyResult 1..1 and
-    hivTestDate 1..1
-
-* section[hivDiagnosisSection].entry[hivDiagnosis] only Reference(HIVDiagnosis)
-* section[hivDiagnosisSection].entry[hivDiagnosisEncounter] only Reference(HIVDiagnosisEncounter)
-* section[hivDiagnosisSection].entry[hivRecencyTestConducted] only Reference(HIVRecencyTestConducted)
-* section[hivDiagnosisSection].entry[hivRecencyResult] only Reference(HIVRecencyResult)
-* section[hivDiagnosisSection].entry[hivTestDate] only Reference(HIVTestDate)
-
-* section[hivEntryToCareSection].title = "HIV Entry To Care"
-* section[hivEntryToCareSection].code = CSCaseReportSections#HIV-ENTRY-TO-CARE
-* section[hivEntryToCareSection].entry only Reference(HIVEpisodeOfCare or HIVClinicalEncounter or HIVTransferOut)
-* section[hivEntryToCareSection].entry ^slicing.discriminator.type = #profile
-* section[hivEntryToCareSection].entry ^slicing.discriminator.path = "item.resolve()"
-* section[hivEntryToCareSection].entry ^slicing.rules = #closed
-* section[hivEntryToCareSection].entry contains
-    hivEpisodeOfCare 1..1 and
-    hivClinicalEncounter 1..1 and 
-    hivTransferOut 0..1
-
-* section[hivEntryToCareSection].entry[hivEpisodeOfCare] only Reference(HIVEpisodeOfCare)
-* section[hivEntryToCareSection].entry[hivClinicalEncounter] only Reference(HIVClinicalEncounter)
-* section[hivEntryToCareSection].entry[hivTransferOut] only Reference(HIVTransferOut)
-
-* section[arvTreatmentSection].title = "ARV Treatment"
-* section[arvTreatmentSection].code = CSCaseReportSections#ARV-TREATMENT
-* section[arvTreatmentSection].entry only Reference(ARVTreatment or HIVCareMedicationRequest)
-* section[arvTreatmentSection].entry ^slicing.discriminator.type = #profile
-* section[arvTreatmentSection].entry ^slicing.discriminator.path = "item.resolve()"
-* section[arvTreatmentSection].entry ^slicing.rules = #closed
-* section[arvTreatmentSection].entry contains
-    arvTreatment 1..1 and
-    hivCareMedicationRequest 1..1
-* section[arvTreatmentSection].entry[arvTreatment] only Reference(ARVTreatment)
-* section[arvTreatmentSection].entry[hivCareMedicationRequest] only Reference(HIVCareMedicationRequest)
-
-* section[cd4Section].title = "CD4"
-* section[cd4Section].code = CSCaseReportSections#CD4
-* section[cd4Section].entry only Reference(CD4)
-
-* section[viralSuppressionSection].title = "Viral Suppression"
-* section[viralSuppressionSection].code = CSCaseReportSections#VIRAL-SUPPRESSION
-* section[viralSuppressionSection].entry only Reference(ViralLoadSuppression or VLProcedureInfo)
-* section[viralSuppressionSection].entry ^slicing.discriminator.type = #profile
-* section[viralSuppressionSection].entry ^slicing.discriminator.path = "item.resolve()"
-* section[viralSuppressionSection].entry ^slicing.rules = #closed
-* section[viralSuppressionSection].entry contains
-    viralLoadSuppression 1..1 and
-    vlProcedureInfo 1..1
-* section[viralSuppressionSection].entry[viralLoadSuppression] only Reference(ViralLoadSuppression)
-* section[viralSuppressionSection].entry[vlProcedureInfo] only Reference(VLProcedureInfo)
-
-
-* section[deathSection].title = "Death"
-* section[deathSection].code = CSCaseReportSections#DEATH
-* section[deathSection].entry only Reference(DeathObs)
 
 Profile: HIVDiagnosisEncounter
 Parent: Encounter
@@ -384,7 +284,7 @@ Description: "HIV Transfer Out Request"
 //reason for viral load
 Profile: VLProcedureInfo
 Parent: Procedure
-Id: vl-procedure-info
+Id: vl-procedure
 Title: "VL Procedure info"
 Description: "VL Procedure info"
 * reasonCode from VSHIVVLReason  
@@ -417,3 +317,12 @@ Description: "This profile allows the exchange of a patient's test date"
 * encounter 1..1 MS 
 * code = CSHIVObsCodes#DATE-TESTED-FOR-HIV "Date tested for HIV"
 * valueDateTime 1..1 MS
+
+Profile: HIVMedicationDispense
+Parent: MedicationDispense
+Id: hiv-medication-dispense
+Title: "HIV Medication Dispense"
+Description: ""
+* context 1..1
+* subject 1..1
+* quantity 1..1       

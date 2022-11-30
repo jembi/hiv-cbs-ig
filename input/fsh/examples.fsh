@@ -1,110 +1,3 @@
-Instance: HIVCaseReportingSubmitExample
-InstanceOf: Bundle
-Usage: #example
-Title: "HIV Case Report - Full Bundle Example"
-Description: "Example of a clinical bundle representing a case report"
-* type = #transaction
-* entry[+].fullUrl = "Composition/HIVCompositionExample"
-* entry[=].resource = HIVCompositionExample
-* entry[+].fullUrl = "Encounter/HIVDiagnosisEncounterExample"
-* entry[=].resource = HIVDiagnosisEncounterExample
-* entry[+].fullUrl = "Encounter/HIVClinicalEncounterExample"
-* entry[=].resource = HIVClinicalEncounterExample
-* entry[+].fullUrl = "Patient/HIVPatientExample"
-* entry[=].resource = HIVPatientExample
-* entry[+].fullUrl = "RelatedPerson/GuardianExample"
-* entry[=].resource = GuardianExample
-* entry[+].fullUrl = "Condition/HIVDiagnosisExample"
-* entry[=].resource = HIVDiagnosisExample
-* entry[+].fullUrl = "Observation/HIVRecencyTestConductedExample"
-* entry[=].resource = HIVRecencyTestConductedExample
-* entry[+].fullUrl = "Observation/HIVRecencyResultExample"
-* entry[=].resource = HIVRecencyResultExample
-* entry[+].fullUrl = "Observation/HIVTestDateExample"
-* entry[=].resource = HIVTestDateExample
-* entry[+].fullUrl = "EpisodeOfCare/HIVEpisodeOfCareExample"
-* entry[=].resource = HIVEpisodeOfCareExample
-* entry[+].fullUrl = "CarePlan/ARVTreatmentExample1"
-* entry[=].resource = ARVTreatmentExample1
-* entry[+].fullUrl = "CarePlan/ARVTreatmentExample2"
-* entry[=].resource = ARVTreatmentExample2
-* entry[+].fullUrl = "Observation/CD4Example1"
-* entry[=].resource = CD4Example1
-* entry[+].fullUrl = "Observation/CD4Example2"
-* entry[=].resource = CD4Example2
-* entry[+].fullUrl = "Observation/ViralLoadSuppressionExample1"
-* entry[=].resource = ViralLoadSuppressionExample1
-* entry[+].fullUrl = "Observation/ViralLoadSuppressionExample2"
-* entry[=].resource = ViralLoadSuppressionExample2
-* entry[+].fullUrl = "Observation/DeathExample"
-* entry[=].resource = DeathExample
-* entry[+].fullUrl = "Observation/HIVCareMedicationRequestExample"
-* entry[=].resource = HIVCareMedicationRequestExample
-* entry[+].fullUrl = "Observation/HIVTransferOutExample"
-* entry[=].resource = HIVTransferOutExample
-* entry[+].fullUrl = "Observation/VLProcedureInfoExample"
-* entry[=].resource = VLProcedureInfoExample
-* entry[+].fullUrl = "ServiceRequest/HIVServiceRequestExample"
-* entry[=].resource = HIVServiceRequestExample
-* entry[+].fullUrl = "Specimen/VLSpecimenExample"
-* entry[=].resource = VLSpecimenExample
-
-Instance: HIVCompositionExample
-InstanceOf: HIVComposition
-Usage: #example
-Title: "HIV Case Report Composition Example"
-Description: "Basic Composition example"
-* status = #final
-* identifier.system = "http://openhie.org/fhir/hiv-casereporting/identifier/hiv-case-report"
-* identifier.value = "1111"
-* date = "2021-05-18"
-* author = Reference(HIVOrganizationExample)
-* title = "HIV Case Report"
-
-* section[+].title = "Client registration"
-* section[=].code = CSCaseReportSections#CLIENT-REGISTRATION
-* section[=].entry[+] = Reference(HIVPatientExample)
-* section[=].entry[+] = Reference(GuardianExample)
-
-* section[+].title = "HIV Diagnosis"
-* section[=].code = CSCaseReportSections#HIV-DIAGNOSIS
-* section[=].entry[+] = Reference(HIVDiagnosisExample)
-* section[=].entry[+] = Reference(HIVDiagnosisEncounterExample)
-* section[=].entry[+] = Reference(HIVRecencyTestConductedExample)
-* section[=].entry[+] = Reference(HIVRecencyResultExample)
-* section[=].entry[+] = Reference(HIVTestDateExample)
-
-* section[+].title = "HIV Entry To Care"
-* section[=].code = CSCaseReportSections#HIV-ENTRY-TO-CARE
-* section[=].entry[+] = Reference(HIVEpisodeOfCareExample)
-* section[=].entry[+] = Reference(HIVClinicalEncounterExample)
-* section[=].entry[+] = Reference(HIVTransferOutExample)
-
-* section[+].title = "ARV Treatment"
-* section[=].code = CSCaseReportSections#ARV-TREATMENT
-* section[=].entry[+] = Reference(ARVTreatmentExample1)
-* section[=].entry[+] = Reference(ARVTreatmentExample2)
-* section[=].entry[+] = Reference(HIVCareMedicationRequest) 
-
-* section[+].title = "CD4"
-* section[=].code = CSCaseReportSections#CD4
-* section[=].entry[+] = Reference(CD4Example1)
-* section[=].entry[+] = Reference(CD4Example2)
-
-* section[+].title = "Viral Suppression"
-* section[=].code = CSCaseReportSections#VIRAL-SUPPRESSION
-* section[=].entry[+] = Reference(ViralLoadSuppressionExample1)
-* section[=].entry[+] = Reference(ViralLoadSuppressionExample2)
-* section[=].entry[+] = Reference(VLProcedureInfoExample)
-
-* section[+].title = "Death"
-* section[=].code = CSCaseReportSections#DEATH
-* section[=].entry[+] = Reference(DeathExample)
-
-* section[+].title = "Death"
-* section[=].code = CSCaseReportSections#DEATH
-* section[=].entry[+] = Reference(DeathExample)
-
 Instance: HIVDiagnosisEncounterExample
 InstanceOf: HIVDiagnosisEncounter
 Usage: #example
@@ -420,7 +313,7 @@ Description: "VL Procedure info example"
 * code.text = "viral load"
 
 Instance: HIVServiceRequestExample
-InstanceOf: ServiceRequest
+InstanceOf: HIVServiceRequest
 Usage: #example
 Title: "HIV Service Request example"
 Description: "HIV Service Request example"
@@ -450,3 +343,14 @@ Description: "This profile allows the exchange of a patient's test date"
 * encounter = Reference(HIVClinicalEncounter)
 * valueDateTime = "2022-08-26" 
 * status = #final
+          
+Instance: HIVMedicationDispenseExample
+InstanceOf: HIVMedicationDispense
+Usage: #example
+* status = #completed
+* context = Reference(Encounter/HIVClinicalEncounter)
+* subject = Reference(Patient/HIVPatientExample)
+* quantity.value = 1 
+* quantity.system = "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+* quantity.code = #TAB
+* medicationCodeableConcept = $SCT#439771001 /// NB #TODO - TEMP CODE ONLY, APPLY CORRECT CODING / BINDING
