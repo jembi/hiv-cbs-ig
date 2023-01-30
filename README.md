@@ -1,6 +1,7 @@
 Empty IG
 ---
 This is an empty IG
+This IG is now archived due to it being re-created on the OpenHIE github space.
 <br> </br>
 ###
 ### Publication
